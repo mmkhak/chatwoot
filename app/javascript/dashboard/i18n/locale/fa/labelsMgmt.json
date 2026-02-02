@@ -3,13 +3,13 @@
     "HEADER": "برچسب‌ها",
     "HEADER_BTN_TXT": "افزودن برچسب",
     "LOADING": "درحال گرفتن برچسب‌ها",
-    "DESCRIPTION": "Labels help you categorize and prioritize conversations and leads. You can assign a label to a conversation or contact using the side panel.",
-    "LEARN_MORE": "Learn more about labels",
+    "DESCRIPTION": "برچسب‌ها به شما کمک می‌کنند تا مکالمات و سرنخ‌ها را دسته‌بندی و اولویت‌بندی کنید. شما می‌توانید یک برچسب را به مکالمه یا مخاطب از طریق پنل کناری اختصاص دهید.",
+    "LEARN_MORE": "بیشتر در مورد برچسب‌ها بیاموزید",
     "SEARCH_404": "هیچ آیتمی با این مشخصات یافت نشد",
     "LIST": {
       "404": "هیچ برچسبی در این حساب‌کاربری وجود ندارد.",
       "TITLE": "مدیریت برچسب‌ها",
-      "DESC": "برچسب‌ها به شما اجازه می‌دهند، گفتگوها را با هم گروه‌بندی کنید.",
+      "DESC": "برچسب‌ها به شما اجازه می‌دهند، گفتگو‌ها را با هم گروه‌بندی کنید.",
       "TABLE_HEADER": {
         "NAME": "نام",
         "DESCRIPTION": "توضیحات",
@@ -41,17 +41,17 @@
     },
     "SUGGESTIONS": {
       "TOOLTIP": {
-        "SINGLE_SUGGESTION": "اضافه کردن برچسب به گفتگو",
+        "SINGLE_SUGGESTION": "افزودن برچسب به مکالمه",
         "MULTIPLE_SUGGESTION": "انتخاب این برچسب",
-        "DESELECT": "برچسب را از حالت انتخاب خارج کن",
-        "DISMISS": "بستن پیشنهاد ها"
+        "DESELECT": "عدم انتخاب برچسب",
+        "DISMISS": "رد کردن پیشنهاد ها"
       },
-      "POWERED_BY": "Chatwoot AI",
+      "POWERED_BY": "Gapify AI",
       "DISMISS": "نادیده بگیر",
       "ADD_SELECTED_LABELS": "اضافه کردن برچسب‌های انتخاب شده",
       "ADD_SELECTED_LABEL": "اضافه کردن برچسب‌ انتخاب شده",
       "ADD_ALL_LABELS": "اضافه کردن همه برچسب ها",
-      "SUGGESTED_LABELS": "Suggested labels"
+      "SUGGESTED_LABELS": "برچسب‌های پیشنهادی"
     },
     "ADD": {
       "TITLE": "افزودن برچسب",

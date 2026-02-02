@@ -1,10 +1,10 @@
 {
   "AUTOMATION": {
-    "HEADER": "خودکارسازی",
-    "DESCRIPTION": "Automation can replace and streamline existing processes that require manual effort, such as adding labels and assigning conversations to the most suitable agent. This allows the team to focus on their strengths while reducing time spent on routine tasks.",
-    "LEARN_MORE": "Learn more about automation",
+    "HEADER": "خودکارسازی‌ها",
+    "DESCRIPTION": "خودکارسازی می‌تواند فرآیندهای موجود که نیاز به تلاش دستی دارند، مانند افزودن برچسب‌ها و اختصاص گفتگو‌ها به مناسب‌ترین کارشناس، را جایگزین و ساده‌سازی کند. این امکان را به تیم می‌دهد که بر نقاط قوت خود تمرکز کنند در حالی که زمان صرف‌شده در کارهای روتین کاهش می‌یابد.",
+    "LEARN_MORE": "بیشتر در مورد خودکارسازی بخوانید",
     "HEADER_BTN_TXT": "افزودن قانون خودکارسازی",
-    "LOADING": "واکشی قوانین اتوماسیون",
+    "LOADING": "واکشی قوانین خودکارسازی",
     "ADD": {
       "TITLE": "افزودن قانون خودکارسازی",
       "SUBMIT": "ايجاد كردن",
@@ -23,7 +23,13 @@
         "EVENT": {
           "LABEL": "رویداد",
           "PLACEHOLDER": "لطفا یکی را انتخاب کنید",
-          "ERROR": "رویداد مورد نیاز است"
+          "ERROR": "رویداد مورد نیاز است",
+          "VALUES": {
+            "CONVERSATION_CREATED": "گفتگو ایجاد شد",
+            "CONVERSATION_UPDATED": "گفتگو بروز شد",
+            "MESSAGE_CREATED": "پیام ایجاد شد",
+            "CONVERSATION_OPENED": "گفتگو باز شد"
+          }
         },
         "CONDITIONS": {
           "LABEL": "شرایط"
@@ -33,23 +39,23 @@
         }
       },
       "CONDITION_BUTTON_LABEL": "اضافه کردن شرط",
-      "ACTION_BUTTON_LABEL": "افزودن اکشن",
+      "ACTION_BUTTON_LABEL": "افزودن عملیات",
       "API": {
-        "SUCCESS_MESSAGE": "قانون اتوماسیون با موفقیت اضافه شد",
-        "ERROR_MESSAGE": "نمی‌توان یک قانون اتوماسیون ایجاد کرد، لطفاً بعداً دوباره امتحان کنید"
+        "SUCCESS_MESSAGE": "قانون خودکارسازی با موفقیت اضافه شد",
+        "ERROR_MESSAGE": "نمی‌توان یک قانون خودکارسازی ایجاد کرد، لطفاً بعداً دوباره امتحان کنید"
       }
     },
     "LIST": {
+      "404": "هیچ قانون خودکارسازی یافت نشد",
       "TABLE_HEADER": {
         "NAME": "نام",
         "DESCRIPTION": "توضیحات",
         "ACTIVE": "فعال",
         "CREATED_ON": "ایجاد شده در"
-      },
-      "404": "هیچ قانون اتوماسیون یافت نشد"
+      }
     },
     "DELETE": {
-      "TITLE": "قانون اتوماسیون را حذف کنید",
+      "TITLE": "قانون خودکارسازی را حذف کنید",
       "SUBMIT": "حذف",
       "CANCEL_BUTTON_TEXT": "انصراف",
       "CONFIRM": {
@@ -59,24 +65,24 @@
         "NO": "نه، بماند "
       },
       "API": {
-        "SUCCESS_MESSAGE": "قانون اتوماسیون با موفقیت حذف شد",
-        "ERROR_MESSAGE": "نمی‌توان یک قانون اتوماسیون را حذف کرد، لطفاً بعداً دوباره امتحان کنید"
+        "SUCCESS_MESSAGE": "قانون خودکارسازی با موفقیت حذف شد",
+        "ERROR_MESSAGE": "نمی‌توان یک قانون خودکارسازی را حذف کرد، لطفاً بعداً دوباره امتحان کنید"
       }
     },
     "EDIT": {
-      "TITLE": "ویرایش قانون اتوماسیون",
+      "TITLE": "ویرایش قانون خودکارسازی",
       "SUBMIT": "اعمال شود",
       "CANCEL_BUTTON_TEXT": "انصراف",
       "API": {
-        "SUCCESS_MESSAGE": "قانون اتوماسیون با موفقیت به روز شد",
-        "ERROR_MESSAGE": "قانون اتوماسیون به‌روزرسانی نشد، لطفاً بعداً دوباره امتحان کنید"
+        "SUCCESS_MESSAGE": "قانون خودکارسازی با موفقیت به روز شد",
+        "ERROR_MESSAGE": "قانون خودکارسازی به‌روزرسانی نشد، لطفاً بعداً دوباره امتحان کنید"
       }
     },
     "CLONE": {
       "TOOLTIP": "کلون",
       "API": {
-        "SUCCESS_MESSAGE": "اتوماسیون با موفقیت کلون شد",
-        "ERROR_MESSAGE": "نمی‌توان قانون اتوماسیون را کلون کرد، لطفاً بعداً دوباره امتحان کنید"
+        "SUCCESS_MESSAGE": "خودکارسازی با موفقیت کلون شد",
+        "ERROR_MESSAGE": "نمی‌توان قانون خودکارسازی را کلون کرد، لطفاً بعداً دوباره امتحان کنید"
       }
     },
     "FORM": {
@@ -88,25 +94,25 @@
     },
     "CONDITION": {
       "DELETE_MESSAGE": "شما باید حداقل یک شرط برای ذخیره داشته باشید",
-      "CONTACT_CUSTOM_ATTR_LABEL": "ویژگی‌های سفارشی تماس",
+      "CONTACT_CUSTOM_ATTR_LABEL": "ویژگی‌های سفارشی مخاطب",
       "CONVERSATION_CUSTOM_ATTR_LABEL": "ویژگی‌های سفارشی گفتگو"
     },
     "ACTION": {
-      "DELETE_MESSAGE": "برای ذخیره باید حداقل یک اکشن داشته باشید",
+      "DELETE_MESSAGE": "برای ذخیره باید حداقل یک عملیات داشته باشید",
       "TEAM_MESSAGE_INPUT_PLACEHOLDER": "پیام خود را اینجا وارد کنید",
       "TEAM_DROPDOWN_PLACEHOLDER": "انتخاب تیم‌ها",
-      "EMAIL_INPUT_PLACEHOLDER": "Enter email",
-      "URL_INPUT_PLACEHOLDER": "Enter URL"
+      "EMAIL_INPUT_PLACEHOLDER": "ایمیل را وارد کنید",
+      "URL_INPUT_PLACEHOLDER": "آدرس وب‌سایت را وارد کنید"
     },
     "TOGGLE": {
-      "ACTIVATION_TITLE": "فعال کردن قانون اتوماسیون",
-      "DEACTIVATION_TITLE": "غیرفعال کردن قانون اتوماسیون",
-      "ACTIVATION_DESCRIPTION": "این اقدام قانون اتوماسیون «{automationName}» را فعال خواهد کرد. مطمئنی که می‌خوای ادامه بدی؟",
-      "DEACTIVATION_DESCRIPTION": "این اقدام قانون اتوماسیون «{automationName}» را غیرفعال خواهد کرد. مطمئنی که می‌خوای ادامه بدی؟",
-      "ACTIVATION_SUCCESFUL": "قانون اتوماسیون با موفقیت فعال شد",
-      "DEACTIVATION_SUCCESFUL": "قانون اتوماسیون با موفقیت غیرفعال شد",
-      "ACTIVATION_ERROR": "اتوماسیون نمی‌توان فعال شد، لطفا بعدا دوباره امتحان کنید",
-      "DEACTIVATION_ERROR": "اتوماسیون نمی‌توان غیرفعال شد، لطفا بعدا دوباره امتحان کنید",
+      "ACTIVATION_TITLE": "فعال کردن قانون خودکارسازی",
+      "DEACTIVATION_TITLE": "غیرفعال کردن قانون خودکارسازی",
+      "ACTIVATION_DESCRIPTION": "این اقدام قانون خودکارسازی «{automationName}» را فعال خواهد کرد. مطمئنی که می‌خوای ادامه بدی؟",
+      "DEACTIVATION_DESCRIPTION": "این اقدام قانون خودکارسازی «{automationName}» را غیرفعال خواهد کرد. مطمئنی که می‌خوای ادامه بدی؟",
+      "ACTIVATION_SUCCESFUL": "قانون خودکارسازی با موفقیت فعال شد",
+      "DEACTIVATION_SUCCESFUL": "قانون خودکارسازی با موفقیت غیرفعال شد",
+      "ACTIVATION_ERROR": "خودکارسازی نمی‌توان فعال شد، لطفا بعدا دوباره امتحان کنید",
+      "DEACTIVATION_ERROR": "خودکارسازی نمی‌توان غیرفعال شد، لطفا بعدا دوباره امتحان کنید",
       "CONFIRMATION_LABEL": "بله",
       "CANCEL_LABEL": "خیر"
     },
@@ -118,43 +124,43 @@
       "LABEL_UPLOAD_FAILED": "بارگذاری انجام نشد"
     },
     "ERRORS": {
-      "ATTRIBUTE_KEY_REQUIRED": "Attribute key is required",
-      "FILTER_OPERATOR_REQUIRED": "Filter operator is required",
+      "ATTRIBUTE_KEY_REQUIRED": "کلید ویژگی الزامی است",
+      "FILTER_OPERATOR_REQUIRED": "عملگر فیلتر الزامی است",
       "VALUE_REQUIRED": "مقدار الزامی است",
-      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Value must be between 1 and 998",
-      "ACTION_PARAMETERS_REQUIRED": "Action parameters are required",
-      "ATLEAST_ONE_CONDITION_REQUIRED": "At least one condition is required",
-      "ATLEAST_ONE_ACTION_REQUIRED": "At least one action is required"
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "مقدار باید بین 1 و 998 باشد",
+      "ACTION_PARAMETERS_REQUIRED": "پارامترهای اقدام الزامی است",
+      "ATLEAST_ONE_CONDITION_REQUIRED": "حداقل یک شرط الزامی است",
+      "ATLEAST_ONE_ACTION_REQUIRED": "حداقل یک اقدام الزامی است"
     },
     "NONE_OPTION": "هیچکدام",
     "EVENTS": {
       "CONVERSATION_CREATED": "گفتگو ایجاد شد",
       "CONVERSATION_UPDATED": "گفتگو به روز شد",
-      "MESSAGE_CREATED": "Message Created",
-      "CONVERSATION_RESOLVED": "Conversation Resolved",
-      "CONVERSATION_OPENED": "Conversation Opened"
+      "MESSAGE_CREATED": "پیام ارسال شد",
+      "CONVERSATION_RESOLVED": "گفتگو حل شد",
+      "CONVERSATION_OPENED": "گفتگو باز شد"
     },
     "ACTIONS": {
-      "ASSIGN_AGENT": "Assign to Agent",
-      "ASSIGN_TEAM": "Assign a Team",
-      "ADD_LABEL": "Add a Label",
-      "REMOVE_LABEL": "Remove a Label",
-      "SEND_EMAIL_TO_TEAM": "Send an Email to Team",
-      "SEND_EMAIL_TRANSCRIPT": "Send an Email Transcript",
+      "ASSIGN_AGENT": "تخصیص به کارشناس",
+      "ASSIGN_TEAM": "تخصیص به تیم",
+      "ADD_LABEL": "اضافه کردن برچسب",
+      "REMOVE_LABEL": "حذف برچسب",
+      "SEND_EMAIL_TO_TEAM": "ارسال ایمیل به تیم",
+      "SEND_EMAIL_TRANSCRIPT": "ارسال ایمیل رونوشت",
       "MUTE_CONVERSATION": "بی‌صدا کردن گفتگو",
       "SNOOZE_CONVERSATION": "به تعویق انداختن مکالمه",
       "RESOLVE_CONVERSATION": "حل مکالمه",
-      "SEND_WEBHOOK_EVENT": "Send Webhook Event",
-      "SEND_ATTACHMENT": "Send Attachment",
-      "SEND_MESSAGE": "Send a Message",
-      "ADD_PRIVATE_NOTE": "Add a Private Note",
+      "SEND_WEBHOOK_EVENT": "ارسال رخداد وبهوک",
+      "SEND_ATTACHMENT": "ارسال فایل",
+      "SEND_MESSAGE": "ارسال پیام",
+      "ADD_PRIVATE_NOTE": "افزودن یادداشت خصوصی",
       "CHANGE_PRIORITY": "تغییر اولویت",
       "ADD_SLA": "اضافه کردن SLA",
       "OPEN_CONVERSATION": "باز کردن گفتگو"
     },
     "MESSAGE_TYPES": {
-      "INCOMING": "Incoming Message",
-      "OUTGOING": "Outgoing Message"
+      "INCOMING": "پیام ورودی",
+      "OUTGOING": "پیام خروجی"
     },
     "PRIORITY_TYPES": {
       "NONE": "هیچکدام",
@@ -164,17 +170,17 @@
       "URGENT": "فوری"
     },
     "ATTRIBUTES": {
-      "MESSAGE_TYPE": "Message Type",
-      "MESSAGE_CONTAINS": "Message Contains",
+      "MESSAGE_TYPE": "نوع پیام",
+      "MESSAGE_CONTAINS": "محتوای پیام",
       "EMAIL": "ایمیل",
       "INBOX": "صندوق ورودی",
-      "CONVERSATION_LANGUAGE": "Conversation Language",
+      "CONVERSATION_LANGUAGE": "زبان گفتگو",
       "PHONE_NUMBER": "شماره تلفن",
       "STATUS": "وضعیت",
       "BROWSER_LANGUAGE": "مرور زبان",
-      "MAIL_SUBJECT": "Email Subject",
+      "MAIL_SUBJECT": "موضوع ایمیل",
       "COUNTRY_NAME": "کشور",
-      "REFERER_LINK": "Referrer Link",
+      "REFERER_LINK": "لینک ارجاع‌دهنده",
       "ASSIGNEE_NAME": "مسئول",
       "TEAM_NAME": "تیم‌",
       "PRIORITY": "اولویت",

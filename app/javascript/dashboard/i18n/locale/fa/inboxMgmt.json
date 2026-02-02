@@ -1,31 +1,31 @@
 {
   "INBOX_MGMT": {
     "HEADER": "صندوق‌های ورودی",
-    "DESCRIPTION": "A channel is the mode of communication your customer chooses to interact with you. An inbox is where you manage interactions for a specific channel. It can include communications from various sources such as email, live chat, and social media.",
-    "LEARN_MORE": "Learn more about inboxes",
-    "RECONNECTION_REQUIRED": "Your inbox is disconnected. You won't receive new messages until you reauthorize it.",
-    "CLICK_TO_RECONNECT": "Click here to reconnect.",
+    "DESCRIPTION": "یک کانال، شیوه ارتباطی است که مشتری شما برای تعامل با شما انتخاب می‌کند. یک صندوق ورودی جایی است که شما تعاملات مربوط به یک کانال خاص را مدیریت می‌کنید. این صندوق ورودی می‌تواند شامل ارتباطات از منابع مختلفی مانند لایوچت و تلگرام باشد.",
+    "LEARN_MORE": "بیشتر درباره صندوق‌های ورودی بیاموزید",
+    "RECONNECTION_REQUIRED": "صندوق ورودی شما قطع شده است. تا زمانی که مجدداً آن را مجاز نکنید، پیام‌های جدید دریافت نخواهید کرد.",
+    "CLICK_TO_RECONNECT": "برای اتصال مجدد اینجا کلیک کنید.",
     "WHATSAPP_REGISTRATION_INCOMPLETE": "Your WhatsApp Business registration isn’t complete. Please check your display name status in Meta Business Manager before reconnecting.",
     "COMPLETE_REGISTRATION": "Complete Registration",
     "LIST": {
-      "404": "برای این حساب هیچ صندوق ورودی معرفی نشده است."
+      "404": "هیچ صندوق ورودی به این حساب متصل نیست."
     },
     "CREATE_FLOW": {
       "CHANNEL": {
-        "TITLE": "کانال ورودی را انتخاب کنید",
-        "BODY": "جایی که قرار است امکان گفتگوی آنلاین در آنجا فراهم شود را انتخاب کنید"
+        "TITLE": "انتخاب کانال",
+        "BODY": "ارائه‌دهنده‌ای که می‌خواهید با Gapify یکپارچه کنید را انتخاب کنید."
       },
       "INBOX": {
-        "TITLE": "ساخت صندوق ورودی",
-        "BODY": "به حساب کاربری وارد شوید و صندوق ورودی بسازید."
+        "TITLE": "ایجاد صندوق ورودی",
+        "BODY": "حساب خود را تأیید کنید و یک صندوق ورودی ایجاد کنید."
       },
       "AGENT": {
-        "TITLE": "معرفی ایجنت",
-        "BODY": "ایجنت ها را به صندوق ورودی ساخته شده تخصیص می‌دهد."
+        "TITLE": "اضافه‌کردن کارشناس‌ها",
+        "BODY": "کارشناس‌ها را به صندوق ورودی ایجاد شده اضافه کنید."
       },
       "FINISH": {
-        "TITLE": "Voilà!",
-        "BODY": "دیگه می‌تونی بترکونی"
+        "TITLE": "تمام شد!",
+        "BODY": "همه چیز آماده است!"
       }
     },
     "ADD": {
@@ -44,7 +44,7 @@
         "CHOOSE_PLACEHOLDER": "از لیست صفحه مورد نظر را انتخاب کنید",
         "INBOX_NAME": "عنوان صندوق ورودی",
         "ADD_NAME": "یک اسم به صندوق ورودی خود اضافه کنید",
-        "PICK_NAME": "Pick a Name for your Inbox",
+        "PICK_NAME": "یک نام برای صندوق ورودی خود انتخاب کنید",
         "PICK_A_VALUE": "یک مقدار انتخاب کنید",
         "CREATE_INBOX": "ساخت صندوق ورودی"
       },
@@ -57,30 +57,23 @@
         "NEW_INBOX_SUGGESTION": "This Instagram account was previously linked to a different inbox and has now been migrated here. All new messages will appear here. The old inbox will no longer be able to send or receive messages for this account.",
         "DUPLICATE_INBOX_BANNER": "This Instagram account was migrated to the new Instagram channel inbox. You won’t be able to send/receive Instagram messages from this inbox anymore."
       },
-      "TIKTOK": {
-        "CONTINUE_WITH_TIKTOK": "Continue with TikTok",
-        "CONNECT_YOUR_TIKTOK_PROFILE": "Connect your TikTok Profile",
-        "HELP": "To add your TikTok profile as a channel, you need to authenticate your TikTok Profile by clicking on 'Continue with TikTok' ",
-        "ERROR_MESSAGE": "There was an error connecting to TikTok, please try again",
-        "ERROR_AUTH": "There was an error connecting to TikTok, please try again"
-      },
       "TWITTER": {
         "HELP": "برای اضافه کردن امکان گفتگو از صفحه پروفایل توییترتان، لازم است با زدن دکمه `ورود با توییتر` پروفایل توییتر خود را شناسایی کنید' ",
         "ERROR_MESSAGE": "هنگام اتصال به توییتر خطایی روی داد ، لطفاً دوباره امتحان کنید",
         "TWEETS": {
-          "ENABLE": "ایجاد گفتگوهایی که از توییت‌های اشاره شده هستند"
+          "ENABLE": "ایجاد گفتگو‌هایی که از توییت‌های اشاره شده هستند"
         }
       },
       "WEBSITE_CHANNEL": {
-        "TITLE": "کانال وب‌سایت",
+        "TITLE": "صندوق ورودی وب‌سایت",
         "DESC": "یک کانال به وب سایت خود بسازید تا مشتریان بتوانند از طریق ویجت سایت با شما گفتگو کنند.",
         "LOADING_MESSAGE": "در حال ساخت کانال پشتیبانی آنلاین سایت",
         "CHANNEL_AVATAR": {
-          "LABEL": "آواتار کانال"
+          "LABEL": "آواتار صندوق ورودی"
         },
         "CHANNEL_WEBHOOK_URL": {
           "LABEL": "آدرس URL وب هوک",
-          "PLACEHOLDER": "Please enter your Webhook URL",
+          "PLACEHOLDER": "لطفا آدرس URL وب هوک خود را وارد کنید",
           "ERROR": "لطفا آدرس URL صحیحی وارد کنید"
         },
         "CHANNEL_DOMAIN": {
@@ -193,12 +186,12 @@
           },
           "API_KEY": {
             "LABEL": "API key",
-            "PLACEHOLDER": "Please enter your Bandwidth API Key",
+            "PLACEHOLDER": "لطفاً Key API Bandwidth خود را وارد کنید",
             "ERROR": "پر کردن این فیلد ضروری است"
           },
           "API_SECRET": {
             "LABEL": "API Secret",
-            "PLACEHOLDER": "Please enter your Bandwidth API Secret",
+            "PLACEHOLDER": "لطفاً Secret API Bandwidth خود را وارد کنید",
             "ERROR": "پر کردن این فیلد ضروری است"
           },
           "APPLICATION_ID": {
@@ -264,7 +257,7 @@
         },
         "WEBHOOK_VERIFY_TOKEN": {
           "LABEL": "رمز تأیید وب هوک",
-          "PLACEHOLDER": "Enter a verify token which you want to configure for Facebook webhooks.",
+          "PLACEHOLDER": "توکنی را وارد کنید که می‌خواهید برای وب‌هوک‌های فیس‌بوک تنظیم کنید.",
           "ERROR": "لطفا یک مقدار معتبر وارد کنید."
         },
         "API_KEY": {
@@ -363,7 +356,7 @@
         },
         "WEBHOOK_URL": {
           "LABEL": "آدرس URL وب هوک",
-          "SUBTITLE": "Configure the URL where you want to receive callbacks on events.",
+          "SUBTITLE": "آدرس URL که می‌خواهید بازخورد رویدادها را در آن دریافت کنید، تنظیم کنید.",
           "PLACEHOLDER": "آدرس URL وب هوک"
         },
         "SUBMIT_BUTTON": "ایجاد کانال API",
@@ -373,7 +366,7 @@
       },
       "EMAIL_CHANNEL": {
         "TITLE": "کانال ایمیل",
-        "DESC": "Integrate your email inbox.",
+        "DESC": "اینباکس ایمیل خود را ادغام کنید.",
         "CHANNEL_NAME": {
           "LABEL": "عنوان کانال",
           "PLACEHOLDER": "لطفا اسم یک کانال را وارد کنید",
@@ -388,11 +381,7 @@
         "API": {
           "ERROR_MESSAGE": "کانال ایمیل ذخیره نشد"
         },
-        "FINISH_MESSAGE": "ایمیل های خود را به این آدرس ها فوروارد کنید.",
-        "FINISH_MESSAGE_NO_FORWARDING": "Your email inbox has been created successfully! You need to configure SMTP and IMAP credentials to send and receive emails. Without these settings, no emails will be processed.",
-        "FORWARDING_ADDRESS_LABEL": "Forward emails to this address:",
-        "CONFIGURE_SMTP_IMAP_LINK": "اینجا کلیک کنید",
-        "CONFIGURE_SMTP_IMAP_TEXT": " to configure IMAP and SMTP settings"
+        "FINISH_MESSAGE": "ایمیل های خود را به این آدرس ها فوروارد کنید."
       },
       "LINE_CHANNEL": {
         "TITLE": "کانال لاین",
@@ -425,82 +414,99 @@
       },
       "TELEGRAM_CHANNEL": {
         "TITLE": "کانال تلگرام",
-        "DESC": "با کانال تلگرام ادغام شده و از مشتریان خود پشتیبانی کنید.",
+        "DESC": "ربات تلگرام خود را به گپیفای متصل کنید و از مشتریان خود در تلگرام پشتیبانی کنید",
         "BOT_TOKEN": {
           "LABEL": "توکن ربات",
           "SUBTITLE": "توکن ربات را که از تلگرام BotFather بدست آورده اید پیکربندی کنید.",
           "PLACEHOLDER": "توکن ربات"
         },
-        "SUBMIT_BUTTON": "ساخت کانال تلگرام",
+        "SUBMIT_BUTTON": "اتصال به ربات تلگرام",
         "API": {
           "ERROR_MESSAGE": "نتوانستیم کانال تلگرام را ذخیره کنیم"
         }
       },
+      "BALE_CHANNEL": {
+        "TITLE": "کانال بله",
+        "DESC": "ربات بله خود را به گپیفای متصل کنید و از مشتریان خود در بله پشتیبانی کنید",
+        "BOT_TOKEN": {
+          "LABEL": "توکن ربات",
+          "SUBTITLE": "توکن ربات را که از بله BotFather بدست آورده اید پیکربندی کنید.",
+          "PLACEHOLDER": "توکن ربات"
+        },
+        "SUBMIT_BUTTON": "اتصال به ربات بله",
+        "API": {
+          "ERROR_MESSAGE": "نتوانستیم کانال بله را ذخیره کنیم"
+        }
+      },
       "AUTH": {
         "TITLE": "کانالی را انتخاب کنید",
-        "DESC": "Chatwoot از ویجت های چت زنده، فیس بوک مسنجر، پروفایل های توییتر، واتساپ، ایمیل ها و غیره به عنوان کانال پشتیبانی می کند. اگر می خواهید یک کانال سفارشی بسازید، می توانید آن را با استفاده از کانال API ایجاد کنید. برای شروع، یکی از کانال های زیر را انتخاب کنید.",
+        "DESC": "Gapify از ویجت های لایوچت، تلگرام و غیره به عنوان کانال پشتیبانی می کند. اگر می خواهید یک کانال سفارشی بسازید، می توانید آن را با استفاده از کانال API ایجاد کنید. برای شروع، یکی از کانال‌های زیر را انتخاب کنید.",
         "TITLE_NEXT": "Complete the setup",
         "TITLE_FINISH": "Voilà!",
         "CHANNEL": {
           "WEBSITE": {
             "TITLE": "وب سایت",
-            "DESCRIPTION": "Create a live-chat widget"
+            "DESCRIPTION": "ساخت ویجت لایوچت برای قرار دادن روی وبسایت"
           },
           "FACEBOOK": {
             "TITLE": "فیس‌بوک",
-            "DESCRIPTION": "Connect your Facebook page"
+            "DESCRIPTION": "صفحه فیس‌بوک خود را متصل کنید"
           },
           "WHATSAPP": {
             "TITLE": "WhatsApp",
-            "DESCRIPTION": "Support your customers on WhatsApp"
+            "DESCRIPTION": "به مشتریان خود در واتساپ پشتیبانی دهید"
           },
           "EMAIL": {
             "TITLE": "ایمیل",
-            "DESCRIPTION": "Connect with Gmail, Outlook, or other providers"
+            "DESCRIPTION": "با جیمیل، اوتلوک یا سایر ارائه‌دهنده‌‌ها ارتباط برقرار کنید"
           },
           "SMS": {
             "TITLE": "SMS",
-            "DESCRIPTION": "Integrate SMS channel with Twilio or bandwidth"
+            "DESCRIPTION": "کانال پیامکی را با Twilio یا Bandwidth یکپارچه کنید"
           },
           "API": {
             "TITLE": "API",
-            "DESCRIPTION": "Make a custom channel using our API"
+            "DESCRIPTION": "کانال سفارشی خود را از طریق API‌های گپیفای متصل کنید."
           },
           "TELEGRAM": {
             "TITLE": "Telegram",
-            "DESCRIPTION": "Configure Telegram channel using Bot token"
+            "DESCRIPTION": "با استفاده از توکن بات تلگرام، آن را به گپیفای متصل کنید."
           },
           "LINE": {
             "TITLE": "Line",
-            "DESCRIPTION": "Integrate your Line channel"
+            "DESCRIPTION": "کانال لاین خود را یکپارچه کنید"
           },
           "INSTAGRAM": {
             "TITLE": "Instagram",
-            "DESCRIPTION": "Connect your instagram account"
-          },
-          "TIKTOK": {
-            "TITLE": "TikTok",
-            "DESCRIPTION": "Connect your TikTok account"
+            "DESCRIPTION": "حساب اینستاگرام خود را متصل کنید"
           },
           "VOICE": {
             "TITLE": "Voice",
-            "DESCRIPTION": "Integrate with Twilio Voice"
+            "DESCRIPTION": "با Twilio Voice یکپارچه‌سازی کنید"
+          },
+          "DMPLUS_INSTAGRAM": {
+            "TITLE": "اینستاگرام (دایرکتم پلاس)",
+            "DESCRIPTION": "از طریق دایرکتم پلاس، دایرکت اینستاگرام خود را به گپیفای متصل کنید. "
+          },
+          "BALE": {
+            "TITLE": "بله",
+            "DESCRIPTION": "با بله یکپارچه‌سازی کنید"
           }
         }
       },
       "AGENTS": {
-        "TITLE": "ایجنت ها",
-        "DESC": "در اینجا می‌توانید ایجنت ها را به صندوق‌ ورودی خود اختصاص دهید. توجه داشته باشید که فقط ایجنت هایی که در اینجا معرفی شده باشند می‌توانند به پیام‌های این صندوق پاسخ بدهند. دیگر ایجنت ها نخواهند توانست پیام‌های این صندوق را ببینید یا به آن‌ها پاسخی بدهند. <br> <b>پانویس:</b>به عنوان مدیر اگر می‌خواهید به همه صندوق‌های ورودی دسترسی داشته باشید می‌بایست خود را به عنوان ایجنت به همه صندوق‌ها اضافه کنید.",
-        "VALIDATION_ERROR": "Add at least one agent to your new Inbox",
-        "PICK_AGENTS": "انتخاب ایجنت ها برای این صندوق ورودی"
+        "TITLE": "کارشناس‌ها",
+        "DESC": "در اینجا می‌توانید کارشناس‌ها را به صندوق‌ ورودی خود اختصاص دهید. توجه داشته باشید که فقط کارشناس‌هایی که در اینجا معرفی شده باشند می‌توانند به پیام‌های این صندوق پاسخ بدهند. دیگر کارشناس‌ها نخواهند توانست پیام‌های این صندوق را ببینید یا به آن‌ها پاسخی بدهند. <br> <b>پانویس:</b> به عنوان مدیر اگر می‌خواهید به همه صندوق‌های ورودی دسترسی داشته باشید می‌بایست خود را به عنوان کارشناس به همه صندوق‌ها اضافه کنید.",
+        "VALIDATION_ERROR": "حداقل یک کارشناس را به صندوق ورودی جدید خود اضافه کنید",
+        "PICK_AGENTS": "انتخاب کارشناس‌ها برای این صندوق ورودی"
       },
       "DETAILS": {
         "TITLE": "جزئیات صندوق‌ ورودی",
-        "DESC": "از کادر زیر صفحه فیس بوکی که می‌خواهید به چت ووت متصل شود انتخاب کنید. همچنین می‌توانید برای تشخیص بهتر یک اسم مشخص برای این صندوق تعیین کنید."
+        "DESC": "از کادر زیر صفحه فیس بوکی که می‌خواهید به گپیفای متصل شود انتخاب کنید. همچنین می‌توانید برای تشخیص بهتر یک اسم مشخص برای این صندوق تعیین کنید."
       },
       "FINISH": {
         "TITLE": "ماشالله!",
-        "DESC": "چت ووت با موفقیت به فیس بوک متصل شد. از به بعد هر مشتری که پیامی در این صفحه بنویسید، آن پیام در صندوق ورودی چت ووت ظاهر می‌شود و گفتگویی ایجاد می‌شود..<br>فراموش نکنید که ما یک ویجت برای سایت‌ها هم داریم که با قرار دادن آن در سایت، مشتری می‌تواند به صورت آنلاین با شما گفتگو کند و پیام‌ها در صندوق ورودی آن ظاهر می‌شود<br>باحال نیست؟ ما همیشه باحالیم! :)"
+        "DESC": "گپیفای با موفقیت به فیس بوک متصل شد. از به بعد هر مشتری که پیامی در این صفحه بنویسید، آن پیام در صندوق ورودی گپیفای ظاهر می‌شود و گفتگویی ایجاد می‌شود..<br>فراموش نکنید که ما یک ویجت برای سایت‌ها هم داریم که با قرار دادن آن در سایت، مشتری می‌تواند به صورت آنلاین با شما گفتگو کند و پیام‌ها در صندوق ورودی آن ظاهر می‌شود<br>باحال نیست؟ ما همیشه باحالیم! :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "ارائه دهنده ایمیل خود را انتخاب کنید",
@@ -510,30 +516,94 @@
         "TITLE": "ایمیل مایکروسافت",
         "DESCRIPTION": "برای شروع روی دکمه Sign in with Microsoft کلیک کنید. شما به صفحه ورود به ایمیل هدایت خواهید شد. هنگامی که مجوزهای درخواستی را پذیرفتید، به مرحله ایجاد صندوق ورودی هدایت می شوید.",
         "EMAIL_PLACEHOLDER": "آدرس ایمیل را وارد کنید",
-        "SIGN_IN": "Sign in with Microsoft",
+        "SIGN_IN": "ورود با مایکروسافت",
         "ERROR_MESSAGE": "هنگام اتصال به مایکروسافت خطایی روی داد، لطفاً دوباره امتحان کنید"
       },
       "GOOGLE": {
-        "TITLE": "Google Email",
-        "DESCRIPTION": "Click on the Sign in with Google button to get started. You will redirected to the email sign in page. Once you accept the requested permissions, you would be redirected back to the inbox creation step.",
-        "SIGN_IN": "Sign in with Google",
+        "TITLE": "ایمیل گوگل",
+        "DESCRIPTION": "برای شروع روی دکمه Sign in with Google کلیک کنید. شما به صفحه ورود به ایمیل هدایت خواهید شد. هنگامی که مجوزهای درخواستی را پذیرفتید، به مرحله ایجاد صندوق ورودی هدایت می شوید.",
+        "SIGN_IN": "ورود با گوگل",
         "EMAIL_PLACEHOLDER": "آدرس ایمیل را وارد کنید",
-        "ERROR_MESSAGE": "There was an error connecting to Google, please try again"
+        "ERROR_MESSAGE": "هنگام اتصال به گوگل خطایی روی داد، لطفاً دوباره امتحان کنید"
+      },
+      "DMPLUS_INSTAGRAM": {
+        "TITLE": "اتصال اینستاگرام (دایرکتم پلاس)",
+        "DESCRIPTION": "توکن دسترسی دایرکتم پلاس خود را وارد کنید تا حساب اینستاگرام خود را متصل کنید.",
+        "HELP_TEXT": "شما می‌توانید با داشتن حساب در دایرکتم پلاس، گپیفای را به صفحه‌ی اینستاگرام خود متصل کنید:\n\n۱- ابتدا در آدرس زیر حساب کاربری خود را باز کنید:\n<a href=\"https://directam-plus.manymessage.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 underline\">https://directam-plus.manymessage.com/</a>\n\n۲- در پنل دایرکتم پلاس و از بخش اتصال به اینستاگرام، صفحه‌ی اینستاگرام خود را به دایرکتم پلاس متصل کنید.\n\n۳- سپس از بخش وب‌سرویس، یک توکن دریافت کرده و کپی کنید و در این فرم وارد کنید.",
+        "HELP_TITLE": "راهنمای اتصال:",
+        "ACCESS_TOKEN": {
+          "LABEL": "توکن دسترسی",
+          "PLACEHOLDER": "توکن دسترسی دایرکتم پلاس خود را وارد کنید",
+          "ERROR": "لطفاً توکن دسترسی معتبر وارد کنید"
+        },
+        "CONNECT_BUTTON": "اتصال اینستاگرام (دایرکتم پلاس)",
+        "CREATING": "در حال ایجاد...",
+        "SUCCESS_TITLE": "کانال با موفقیت ایجاد شد!",
+        "CONFIGURATION_REQUIRED": "پیکربندی مورد نیاز:",
+        "CONFIGURATION_DESCRIPTION": "لطفاً موارد زیر را در داشبورد دایرکتم پلاس خود پیکربندی کنید:",
+        "CONFIGURATION_HELP": "۱- در بخش وب‌سرویس در پنل دایرکتم پلاس، این آدرس را به «اندپوینت‌های مجاز» اضافه کنید. \n ۲- آی‌پی‌های زیر را به «آیپی‌های مجاز» اضافه کنید. \n تبریک! اتصال شما کامل شد!",
+        "CONFIGURATION_HELP_TITLE": "راهنمای پیکربندی:",
+        "WEBHOOK_URL": {
+          "LABEL": "1. آدرس URL وب هوک:",
+          "COPY": "کپی"
+        },
+        "SERVER_IPS": {
+          "LABEL": "2. آدرس‌های IP سرور برای لیست سفید:",
+          "COPY": "کپی"
+        },
+        "CONTINUE_BUTTON": "ادامه پیکربندی",
+        "CREATE_ANOTHER_BUTTON": "ایجاد کانال دیگر",
+        "TRY_AGAIN_BUTTON": "تلاش مجدد",
+        "ERROR_TITLE": "خطا در ایجاد کانال",
+        "ERROR_DESCRIPTION": "خطایی در ایجاد کانال رخ داد. لطفاً دوباره تلاش کنید.",
+        "COPY_SUCCESS": "در کلیپ‌بورد کپی شد!",
+        "COPY_ERROR": "کپی در کلیپ‌بورد ناموفق بود",
+        "COPIED": "کپی شد!"
+      },
+      "MANYCHAT_INSTAGRAM": {
+        "TITLE": "اتصال اینستاگرام (Manychat)",
+        "DESCRIPTION": "توکن API منی‌چت خود را وارد کنید تا حساب اینستاگرام خود را متصل کنید.",
+        "API_TOKEN": {
+          "LABEL": "توکن API منی‌چت",
+          "PLACEHOLDER": "توکن API منی‌چت خود را وارد کنید"
+        },
+        "NICKNAME": {
+          "LABEL": "نام مستعار (اختیاری)",
+          "PLACEHOLDER": "مثال: اینستاگرام فروشگاه من"
+        },
+        "WHERE_FIND": "این را از کجا پیدا کنم؟",
+        "HELP_TEXT": "۱- لطفا در Manychat.com یک اکانت بسازید و اشتراک Pro آن را خریداری کنید. در صورتی که برای خریداری این اشتراک نیاز به کمک دارید، لطفا با پشتیبانی گپیفای تماس بگیرید.\n\n۲- پس از تهیه‌ی اشتراک Pro، وارد پنل شده و ابتدا صفحه‌ی Instagram خود را به Manychat متصل کنید.\n\n۳- سپس از بخش تنظیمات، گزینه‌ی API را انتخاب کرده و از طریق Get API Key یک کلید تولید کرده و در اینجا قرار دهید.",
+        "CONNECT_BUTTON": "اعتبارسنجی و اتصال",
+        "VALIDATING": "در حال اعتبارسنجی...",
+        "SUCCESS_TITLE": "تقریباً تمام شد! پیکربندی Webhook",
+        "WEBHOOK_INSTRUCTIONS_TITLE": "دستورالعمل راه‌اندازی:",
+        "WEBHOOK_INSTRUCTIONS": "برای اینکه پیام‌های اینستاگرام شما، توسط گپیفای دریافت شود، لطفا گام‌های زیر را طی کنید.\n۱- در پنل Manychat خود، وارد بخش settings شوید و Instagram را انتخاب کنید.\n\n۲- از بخش Default Reply گزینه‌ی Create New Reply را بزنید.\n\n۳- شما وارد یک صفحه‌ی ساخت Automation می‌شوید که شامل دو مرحله است. مرحله‌ی دوم آن Default Replyاست. بر روی آن مرحله کلیک کنید.\n\n۴- در تنظیماتی که باز می‌شود، گزینه‌ی More را بزنید و بلوک Dynamic (Request content from server) را اضافه کنید. حال بلوک بالاتر (Enter your text) را حذف کنید.\n\n۵- بلوک Dynamic را باز کنید. در URL آدرس زیر را قرار دهید.\n\n۶- در Body هم محتوای زیر را قرار دهید. و در نهایت save را انتخاب کنید.\n\n۷- حال Set Live را بزنید تا پیام‌های ورودی به اینستاگرام شما به گپیفای ارسال گردند.",
+        "WEBHOOK_URL": {
+          "LABEL": "URL Webhook شما",
+          "COPY": "کپی URL"
+        },
+        "JSON_EXAMPLE_TITLE": "محتوای Webhook (در منی‌چت قرار دهید):",
+        "CONTINUE_BUTTON": "ادامه تا پایان",
+        "CREATE_ANOTHER": "ایجاد کانال دیگر",
+        "ERROR_TITLE": "اتصال ناموفق بود",
+        "ERROR_DESCRIPTION": "نمی‌توان توکن API شما را اعتبارسنجی کرد. لطفاً بررسی کرده و دوباره تلاش کنید.",
+        "TRY_AGAIN": "تلاش مجدد",
+        "COPIED": "کپی شد!"
       }
     },
     "DETAILS": {
       "LOADING_FB": "در حال احراز هویت با فیس بوک...",
-      "ERROR_FB_LOADING": "Error loading Facebook SDK. Please disable any ad-blockers and try again from a different browser.",
-      "ERROR_FB_AUTH": "اشکالی پیش آمد.. لطفا دوباره سعی کنید...",
-      "ERROR_FB_UNAUTHORIZED": "شما اجازه انجام این کار را ندارید. ",
-      "ERROR_FB_UNAUTHORIZED_HELP": "لطفا مطمئن شوید که با کنترل کامل به صفحه فیس بوک دسترسی دارید. اینجا می‌توانید درباره نقش‌های فیسبوک بیشتر بخوانید <a href=\" https://www.facebook.com/help/187316341316631\">راهنما</a>.",
+      "ERROR_FB_LOADING": "خطا در بارگذاری SDK فیس بوک. لطفاً هرگونه مسدود کننده تبلیغات را غیرفعال کرده و دوباره از مرورگر دیگری امتحان کنید.",
+      "ERROR_FB_AUTH": "اشکالی پیش آمد.. لطفاً دوباره سعی کنید...",
+      "ERROR_FB_UNAUTHORIZED": "شما اجازه انجام این کار را ندارید.",
+      "ERROR_FB_UNAUTHORIZED_HELP": "لطفاً مطمئن شوید که با کنترل کامل به صفحه فیس بوک دسترسی دارید. اینجا می‌توانید درباره نقش‌های فیسبوک بیشتر بخوانید <a href=\" https://www.facebook.com/help/187316341316631\">راهنما</a>.",
       "CREATING_CHANNEL": "در حال ساخت صندوق ورودی...",
       "TITLE": "تنظیمات صفحه ورودی",
       "DESC": ""
     },
     "AGENTS": {
-      "BUTTON_TEXT": "اضافه کردن ایجنت",
-      "ADD_AGENTS": "اضافه کردن ایجنت به صندوق ورودی..."
+      "BUTTON_TEXT": "اضافه کردن کارشناس",
+      "ADD_AGENTS": "اضافه کردن کارشناس به صندوق ورودی..."
     },
     "FINISH": {
       "TITLE": "صندوق ورودی حاضره!",
@@ -541,6 +611,10 @@
       "BUTTON_TEXT": "نشانم بده",
       "MORE_SETTINGS": "تنظیمات بیشتر",
       "WEBSITE_SUCCESS": "ساختن کانال وب سایت با موفقیت انجام شد. قطعه کد زیر را کپی کرده و در سایت خود قرار دهید. در صورتیکه مشتری از ویجت پشتیبانی آنلاین استفاده کند گفتگوی شما در این صندوق ورودی ظاهر می‌شود.",
+      "BOTIFY": {
+        "TITLE": "راه‌اندازی باتیفای",
+        "HINT": "چت‌بات هوشمند"
+      },
       "WHATSAPP_QR_INSTRUCTION": "Scan the QR code above to quickly test your WhatsApp inbox",
       "MESSENGER_QR_INSTRUCTION": "Scan the QR code above to quickly test your Facebook Messenger inbox",
       "TELEGRAM_QR_INSTRUCTION": "Scan the QR code above to quickly test your Telegram inbox"
@@ -550,7 +624,7 @@
     "EDIT": {
       "API": {
         "SUCCESS_MESSAGE": "تنظمیات صندوق ورودی اعمال شد",
-        "AUTO_ASSIGNMENT_SUCCESS_MESSAGE": "واگذاری خودکار گفتگو به ایجنت ها تنظیم شد",
+        "AUTO_ASSIGNMENT_SUCCESS_MESSAGE": "واگذاری خودکار گفتگو به کارشناس‌ها تنظیم شد",
         "ERROR_MESSAGE": "ما نمی‌توانیم تنظیمات صندوق ورودی را به‌روزرسانی کنیم. لطفا بعدا دوباره امتحان کنید."
       },
       "EMAIL_COLLECT_BOX": {
@@ -563,12 +637,12 @@
       },
       "SENDER_NAME_SECTION": {
         "TITLE": "نام ارسال کننده",
-        "SUB_TEXT": "Select the name shown to your customer when they receive emails from your agents.",
+        "SUB_TEXT": "نامی که هنگام دریافت ایمیل‌ها از کارشناس‌های شما به مشتری نمایش داده می‌شود را انتخاب کنید.",
         "FOR_EG": "به عنوان مثال:",
         "FRIENDLY": {
           "TITLE": "دوستانه",
           "FROM": "از",
-          "SUBTITLE": "نام اپراتوری که پاسخ را ارسال کرده است را به نام فرستنده اضافه کنید تا پیام دوستانه تر شود."
+          "SUBTITLE": "نام کارشناسی که پاسخ را ارسال کرده است را به نام فرستنده اضافه کنید تا پیام دوستانه تر شود."
         },
         "PROFESSIONAL": {
           "TITLE": "حرفه ای",
@@ -636,7 +710,7 @@
           "TOOLTIP": "Phone number displayed to customers"
         },
         "VERIFIED_NAME": {
-          "LABEL": "Business name",
+          "LABEL": "نام کسب‌وکار",
           "TOOLTIP": "Business name verified by WhatsApp"
         },
         "DISPLAY_NAME_STATUS": {
@@ -644,7 +718,7 @@
           "TOOLTIP": "Status of your business name verification"
         },
         "QUALITY_RATING": {
-          "LABEL": "Quality rating",
+          "LABEL": "امتیاز کیفیت",
           "TOOLTIP": "WhatsApp quality rating for your account"
         },
         "MESSAGING_LIMIT_TIER": {
@@ -652,7 +726,7 @@
           "TOOLTIP": "Daily messaging limit for your account"
         },
         "ACCOUNT_MODE": {
-          "LABEL": "Account mode",
+          "LABEL": "حالت حساب",
           "TOOLTIP": "Current operating mode of your WhatsApp account"
         }
       },
@@ -672,7 +746,7 @@
           "AVAILABLE_WITHOUT_REVIEW": "Available Without Review",
           "REJECTED": "Rejected",
           "DECLINED": "Declined",
-          "NON_EXISTS": "Non exists"
+          "NON_EXISTS": "وجود ندارد"
         },
         "MODES": {
           "SANDBOX": "Sandbox",
@@ -689,31 +763,47 @@
       "USE_INBOX_AVATAR_FOR_BOT": "از نام صندوق ورودی و آواتار برای ربات استفاده کنید"
     },
     "SETTINGS_POPUP": {
+      "CSAT": {
+        "MODE": {
+          "LABEL": "نحوه ارسال نظرسنجی از مشتری",
+          "UNIQUE_RESOLUTION": "فقط بار اول که یک گفتگو حل می شود",
+          "REPETITIVE_RESOLUTION": "تمام دفعاتی که یک گفتگو حل می شود"
+        }
+      },
       "MESSENGER_HEADING": "اسکریپت ویجت",
       "MESSENGER_SUB_HEAD": "این دکمه را در تگ body قرار دهید",
       "ALLOWED_DOMAINS": {
-        "TITLE": "Allowed Domains",
-        "SUBTITLE": "Add wildcard or regular domains separated by commas (leave blank to allow all), e.g. *.chatwoot.dev, chatwoot.com.",
-        "PLACEHOLDER": "Enter domains separated by commas (eg: *.chatwoot.dev, chatwoot.com)"
+        "TITLE": "دامنه‌های مجاز",
+        "SUBTITLE": "دامنه‌های معمولی یا وایلدکارد (wildcard) را با کاما (,) جدا کنید (برای مجاز بودن همه، خالی بگذارید). مثال: *.gapify.ai , gapify.ai",
+        "PLACEHOLDER": "دامنه‌ها را با کاما جدا کنید (مثال: *.gapify.ai , gapify.ai)"
       },
-      "INBOX_AGENTS": "ایجنت ها",
-      "INBOX_AGENTS_SUB_TEXT": "اضافه کردن یا حذف کردن دسترسی ایجنت به صندوق ورودی",
+      "WEBSITE_TOKEN": "توکن وب‌سایت",
+      "WEBSITE_TOKEN_DESCRIPTION": "این توکن برای شناسایی وب‌سایت شما در اسکریپت ویجت استفاده می‌شود.",
+      "WORDPRESS_PLUGIN": "پلاگین وردپرس",
+      "DOWNLOAD_WORDPRESS_PLUGIN": "دانلود پلاگین وردپرس",
+      "WORDPRESS_PLUGIN_DESCRIPTION": "با استفاده از توکن وب‌سایت در پلاگین وردپرس، می‌توانید ویجت ما را در وب‌سایت وردپرس خود فعال کنید.",
+      "INBOX_AGENTS": "کارشناس‌ها",
+      "INBOX_AGENTS_SUB_TEXT": "اضافه کردن یا حذف کردن دسترسی کارشناس به صندوق ورودی",
       "AGENT_ASSIGNMENT": "اختصاص گفتگو",
       "AGENT_ASSIGNMENT_SUB_TEXT": "بروز رسانی تنظیمات اختصاص گفتگو",
       "UPDATE": "اعمال شود",
       "ENABLE_EMAIL_COLLECT_BOX": "فعال سازی فرم دریافت ایمیل از کاربر",
       "ENABLE_EMAIL_COLLECT_BOX_SUB_TEXT": "فعال یا غیرفعال کردن فرم دریافت ایمیل از کاربر",
-      "AUTO_ASSIGNMENT": "فعال کردن واگذاری خودکار گفتگو به ایجنت ها",
-      "SENDER_NAME_SECTION": "فعال سازی نام اپراتور در ایمیل",
-      "SENDER_NAME_SECTION_TEXT": "فعال/غیرفعال کردن نمایش نام اپراتور در ایمیل، اگر غیرفعال باشد نام کسب و کار نشان داده می شود",
+      "AUTO_ASSIGNMENT": "فعال کردن واگذاری خودکار گفتگو به کارشناس‌ها",
+      "ENABLE_CSAT": "فعال کردن نظرسنجی از مشتری",
+      "SENDER_NAME_SECTION": "فعال سازی نام کارشناس در ایمیل",
+      "ENABLE_CSAT_SUB_TEXT": "پس از پایان گفتگو ، نظرسنجی CSAT (رضایت مشتری) را فعال/غیرفعال کنید",
+      "SENDER_NAME_SECTION_TEXT": "فعال/غیرفعال کردن نمایش نام کارشناس در ایمیل، اگر غیرفعال باشد نام کسب و کار نشان داده می شود",
       "ENABLE_CONTINUITY_VIA_EMAIL": "ادامه مکالمه را از طریق ایمیل فعال کنید",
       "ENABLE_CONTINUITY_VIA_EMAIL_SUB_TEXT": "اگر آدرس ایمیل تماس در دسترس باشد، مکالمات از طریق ایمیل ادامه خواهد یافت.",
       "LOCK_TO_SINGLE_CONVERSATION": "قفل کردن مکالمه تکی",
       "LOCK_TO_SINGLE_CONVERSATION_SUB_TEXT": "چند مکالمه را برای یک مخاطب در این صندوق ورودی فعال یا غیرفعال کنید",
       "INBOX_UPDATE_TITLE": "تنظیمات صندوق ورودی",
       "INBOX_UPDATE_SUB_TEXT": "تغییر پارامترهای صندوق ورودی",
-      "AUTO_ASSIGNMENT_SUB_TEXT": "فعال کردن یا غیرفعال کردن واگذاری خودکار گفتگوها به ایجنت های عضو این صندوق ورودی.",
+      "AUTO_ASSIGNMENT_SUB_TEXT": "فعال کردن یا غیرفعال کردن واگذاری خودکار گفتگو‌ها به کارشناس‌های عضو این صندوق ورودی.",
       "HMAC_VERIFICATION": "اعتبار سنجی کاربر",
+      "DIRECT_LINK_WIDGET": "لینک مستقیم ویجت",
+      "DIRECT_LINK_WIDGET_DESCRIPTION": "این لینک دسترسی مستقیم به ویجت لایوچت رو امکان پذیر میکند.",
       "HMAC_DESCRIPTION": "به منظور اعتبارسنجی هویت کاربر، می‌توانید یک «شناسه_هش» برای هر کاربر ارسال کنید. می‌توانید با استفاده از «شناسه» با کلید نشان داده شده در اینجا یک هش HMAC sha256 ایجاد کنید.",
       "HMAC_LINK_TO_DOCS": "از اینجا می توانید بیشتر بخوانید.",
       "HMAC_MANDATORY_VERIFICATION": "مجبور کردن تأیید اعتبار هویت کاربر",
@@ -722,12 +812,11 @@
       "INBOX_IDENTIFIER_SUB_TEXT": "از رمز `inbox_identifier` که در اینجا نشان داده شده است برای احراز هویت کلاینت های API خود استفاده کنید.",
       "FORWARD_EMAIL_TITLE": "ارسال به ایمیل",
       "FORWARD_EMAIL_SUB_TEXT": "ایمیل های خود را به این آدرس ها فوروارد کنید.",
-      "FORWARD_EMAIL_NOT_CONFIGURED": "Forwarding emails to your inbox is currently disabled on this installation. To use this feature, it must be enabled by your administrator. Please get in touch with them to proceed.",
-      "ALLOW_MESSAGES_AFTER_RESOLVED": "اجازه دادن به پیام ها پس از حل شدن مکالمه",
+      "ALLOW_MESSAGES_AFTER_RESOLVED": "اجازه دادن به پیام‌ها پس از حل شدن مکالمه",
       "ALLOW_MESSAGES_AFTER_RESOLVED_SUB_TEXT": "به کاربران اجازه دهید حتی پس از حل شدن مکالمه پیام ارسال کنند.",
       "WHATSAPP_SECTION_SUBHEADER": "این کلید API برای ادغام با API های WhatsApp استفاده می شود.",
-      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "Enter the new API key to be used for the integration with the WhatsApp APIs.",
-      "WHATSAPP_SECTION_TITLE": "API key",
+      "WHATSAPP_SECTION_UPDATE_SUBHEADER": "کلید API جدید را وارد کنید تا برای ادغام با API های WhatsApp استفاده شود.",
+      "WHATSAPP_SECTION_TITLE": "کلید API",
       "WHATSAPP_SECTION_UPDATE_TITLE": "کلید API را به روز کنید",
       "WHATSAPP_SECTION_UPDATE_PLACEHOLDER": "کلید API جدید را در اینجا وارد کنید",
       "WHATSAPP_SECTION_UPDATE_BUTTON": "اعمال شود",
@@ -764,7 +853,7 @@
     "AUTO_ASSIGNMENT": {
       "MAX_ASSIGNMENT_LIMIT": "محدودیت تخصیص خودکار",
       "MAX_ASSIGNMENT_LIMIT_RANGE_ERROR": "لطفا مقداری بزرگ‌تر از عدد 0 وارد کنید",
-      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "حداکثر تعداد مکالماتی را که می توان به طور خودکار به یک اپراتور اختصاص داد، از این صندوق ورودی محدود کنید"
+      "MAX_ASSIGNMENT_LIMIT_SUB_TEXT": "حداکثر تعداد مکالماتی را که می توان به طور خودکار به یک کارشناس اختصاص داد، از این صندوق ورودی محدود کنید"
     },
     "FACEBOOK_REAUTHORIZE": {
       "TITLE": "احراز هویت مجدد",
@@ -800,55 +889,25 @@
     },
     "CSAT": {
       "TITLE": "فعال کردن رضایت مشتری",
-      "SUBTITLE": "Automatically trigger CSAT surveys at the end of conversations to understand how customers feel about their support experience. Track satisfaction trends and identify areas for improvement over time.",
+      "SUBTITLE": "به صورت خودکار زمانی که گفتگو حل می‌شود، به مشتریان خود نظرسنجی نشان دهید تا  آن‌ها را در مورد کیفیت پاسخگویی خود بدانید و موارد نیازمند بهبود را پیدا کنید.",
       "DISPLAY_TYPE": {
-        "LABEL": "Display type"
+        "LABEL": "نحوه نمایش"
       },
       "MESSAGE": {
         "LABEL": "پیام",
-        "PLACEHOLDER": "Please enter a message to show users with the form"
-      },
-      "BUTTON_TEXT": {
-        "LABEL": "Button text",
-        "PLACEHOLDER": "Please rate us"
-      },
-      "LANGUAGE": {
-        "LABEL": "زبان",
-        "PLACEHOLDER": "Select template language"
-      },
-      "MESSAGE_PREVIEW": {
-        "LABEL": "Message preview",
-        "TOOLTIP": "This may vary slightly when rendered on WhatsApp's platform."
-      },
-      "TEMPLATE_STATUS": {
-        "APPROVED": "Approved by WhatsApp",
-        "PENDING": "Pending WhatsApp approval",
-        "REJECTED": "Meta rejected the template",
-        "DEFAULT": "Needs WhatsApp approval",
-        "NOT_FOUND": "The template does not exist in the Meta platform."
-      },
-      "TEMPLATE_CREATION": {
-        "SUCCESS_MESSAGE": "WhatsApp template created successfully and sent for approval",
-        "ERROR_MESSAGE": "Failed to create WhatsApp template"
-      },
-      "TEMPLATE_UPDATE_DIALOG": {
-        "TITLE": "Edit survey details",
-        "DESCRIPTION": "We will delete the previous template and make a new one which will be sent again for WhatsApp approval",
-        "CONFIRM": "Create new template",
-        "CANCEL": "بازگشت"
+        "PLACEHOLDER": "لطفا پیامی که بر روی نظرسنجی نشان داده می‌شود را وارد کنید."
       },
       "SURVEY_RULE": {
-        "LABEL": "Survey rule",
-        "DESCRIPTION_PREFIX": "Send the survey if the conversation",
-        "DESCRIPTION_SUFFIX": "any of the labels",
+        "LABEL": "قاعده ارسال",
+        "DESCRIPTION_PREFIX": "نظرسنجی را ارسال کن اگر گفتگو",
+        "DESCRIPTION_SUFFIX": "یکی از / هیچ کدام از",
         "OPERATOR": {
           "CONTAINS": "شامل",
           "DOES_NOT_CONTAINS": "شامل نمی‌شود"
         },
-        "SELECT_PLACEHOLDER": "select labels"
+        "SELECT_PLACEHOLDER": "برچسب‌ها"
       },
       "NOTE": "Note: CSAT surveys are sent only once per conversation",
-      "WHATSAPP_NOTE": "Note: We will create a template and send it for WhatsApp approval. After being approved, surveys will be sent only once per conversation as per the survey rule.",
       "API": {
         "SUCCESS_MESSAGE": "CSAT settings updated successfully",
         "ERROR_MESSAGE": "We couldn't update CSAT settings. Please try again later."
@@ -862,7 +921,7 @@
       "UPDATE": "تنظیمات ساعات کاری را به روز کنید",
       "TOGGLE_AVAILABILITY": "دسترس بودن کسب و کار را برای این صندوق فعال کردن",
       "UNAVAILABLE_MESSAGE_LABEL": "پیامی برای بازدیدکنندگان در دسترس نیست",
-      "TOGGLE_HELP": "فعال کردن در دسترس بودن کسب کار ، ساعات موجود در ویجت چت زنده را نشان می دهد حتی اگر همه اپراتور ها آفلاین باشند. خارج از ساعات موجود می توان با پیام و فرم قبل از چت ، به کاربران هشدار داد.",
+      "TOGGLE_HELP": "فعال کردن در دسترس بودن کسب کار ، ساعات موجود در ویجت چت زنده را نشان می دهد حتی اگر همه کارشناس‌ها آفلاین باشند. خارج از ساعات موجود می توان با پیام و فرم قبل از چت ، به کاربران هشدار داد.",
       "DAY": {
         "ENABLE": "در دسترس بودن را برای این روز فعال کنید",
         "UNAVAILABLE": "غیر قابل دسترسی",
@@ -878,7 +937,7 @@
       "NOTE_TEXT": "برای فعال کردن SMTP، لطفا IMAP را پیکربندی کنید.",
       "UPDATE": "به‌روزرسانی تنظیمات IMAP",
       "TOGGLE_AVAILABILITY": "پیکربندی IMAP را برای این صندوق ورودی فعال کنید",
-      "TOGGLE_HELP": "Enabling IMAP will help the user to receive email",
+      "TOGGLE_HELP": "فعال کردن IMAP به کاربر کمک می‌کند تا ایمیل‌ها را دریافت کند.",
       "EDIT": {
         "SUCCESS_MESSAGE": "تنظیمات IMAP با موفقیت به‌روزرسانی شد",
         "ERROR_MESSAGE": "به‌روزرسانی تنظیمات IMAP ممکن نیست"
@@ -1005,9 +1064,9 @@
         "CHAT": "گفتگو"
       },
       "REPLY_TIME": {
-        "IN_A_FEW_MINUTES": "معمولاً در عرض چند دقیقه پاسخ می‌دهیم",
-        "IN_A_FEW_HOURS": "معمولاً در عرض چند ساعت پاسخ می‌دهیم",
-        "IN_A_DAY": "معمولاً در عرض یک روز پاسخ می‌دهیم"
+        "IN_A_FEW_MINUTES": "معمولاً در چند دقیقه پاسخ می‌دهیم.",
+        "IN_A_FEW_HOURS": "معمولاً در عرض چند ساعت پاسخ می‌دهیم.",
+        "IN_A_DAY": "معمولاً تا یک روز پاسخ می‌دهیم."
       },
       "FOOTER": {
         "START_CONVERSATION_BUTTON_TEXT": "گفتگو را شروع کنید",
@@ -1021,8 +1080,8 @@
         "USER_MESSAGE": "سلام",
         "AGENT_MESSAGE": "سلام"
       },
-      "BRANDING_TEXT": "قدرت گرفته از چت ووت",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "قدرت گرفته از شرکا",
+      "SCRIPT_SETTINGS": "window.gapifySettings \n‍‍‍‍ {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": {
@@ -1044,13 +1103,15 @@
       "TWITTER_PROFILE": "توییتر",
       "TWILIO_SMS": "Twilio SMS",
       "WHATSAPP": "WhatsApp",
-      "SMS": "SMS",
+      "SMS": "پبامک",
       "EMAIL": "ایمیل",
-      "TELEGRAM": "Telegram",
+      "TELEGRAM": "تلگرام",
+      "BALE": "بله",
       "LINE": "Line",
       "API": "کانال API",
       "INSTAGRAM": "Instagram",
-      "TIKTOK": "TikTok",
+      "DMPLUS_INSTAGRAM": "اینستاگرام (دایرکتم پلاس)",
+      "MANYCHAT_INSTAGRAM": "اینستاگرام (Manychat)",
       "VOICE": "Voice"
     }
   }

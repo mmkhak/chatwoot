@@ -1,7 +1,7 @@
 {
   "WHATSAPP_TEMPLATES": {
     "MODAL": {
-      "TITLE": "قالب های واتساپ",
+      "TITLE": "قالب‌های واتساپ",
       "SUBTITLE": "قالب واتساپ مورد نظر برای ارسال را انتخاب کنید",
       "TEMPLATE_SELECTED_SUBTITLE": "Configure template: {templateName}"
     },

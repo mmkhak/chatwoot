@@ -36,39 +36,39 @@
         }
       },
       "INTERFACE_SECTION": {
-        "TITLE": "Interface",
-        "NOTE": "Customize the look and feel of your Chatwoot dashboard.",
+        "TITLE": "رابط کاربری",
+        "NOTE": "ظاهر و حس داشبورد گپیفای خود را به دلخواه تنظیم کنید.",
         "FONT_SIZE": {
-          "TITLE": "Font size",
-          "NOTE": "Adjust the text size across the dashboard based on your preference.",
-          "UPDATE_SUCCESS": "Your font settings have been updated successfully",
-          "UPDATE_ERROR": "There is an error while updating the font settings, please try again",
+          "TITLE": "اندازه‌ی فونت",
+          "NOTE": "اندازه‌ی متن را در سراسر داشبورد بر اساس ترجیحات خود تغییر دهید.",
+          "UPDATE_SUCCESS": "تنظیمات فونت شما با موفقیت به‌روزرسانی شد.",
+          "UPDATE_ERROR": "در به‌روزرسانی تنظیمات فونت خطایی رخ داد، لطفاً دوباره تلاش کنید.",
           "OPTIONS": {
-            "SMALLER": "Smaller",
-            "SMALL": "Small",
+            "SMALLER": "کوچک‌تر",
+            "SMALL": "کوچک",
             "DEFAULT": "پیش‌فرض",
-            "LARGE": "Large",
-            "LARGER": "Larger",
-            "EXTRA_LARGE": "Extra Large"
+            "LARGE": "بزرگ",
+            "LARGER": "بزرگ‌تر",
+            "EXTRA_LARGE": "خیلی بزرگ"
           }
         },
         "LANGUAGE": {
-          "TITLE": "Preferred Language",
-          "NOTE": "Choose the language you want to use.",
-          "UPDATE_SUCCESS": "Your Language settings have been updated successfully",
-          "UPDATE_ERROR": "There is an error while updating the language settings, please try again",
-          "USE_ACCOUNT_DEFAULT": "Use account default"
+          "TITLE": "زبان ترجیحی",
+          "NOTE": "زبان مورد نظر خود را انتخاب کنید.",
+          "UPDATE_SUCCESS": "تنظیمات زبان شما با موفقیت به‌روزرسانی شد",
+          "UPDATE_ERROR": "در به‌روزرسانی تنظیمات زبان خطایی رخ داد، لطفاً دوباره تلاش کنید",
+          "USE_ACCOUNT_DEFAULT": "استفاده از پیش‌فرض حساب"
         }
       },
       "MESSAGE_SIGNATURE_SECTION": {
         "TITLE": "امضای پیام شخصی",
-        "NOTE": "یک امضای منحصر به فرد ایجاد کنید تا در انتهای تمام پیام هایی که از هر صندوق ورودی ارسال می کنید نمایش داده شود. همچنین می‌توانید یک تصویر درون خطی اضافه کنید که در چت، ایمیل و صندوق‌های ورودی API پشتیبانی می‌شود.",
+        "NOTE": "یک امضای منحصر به فرد ایجاد کنید تا در انتهای تمام پیام‌هایی که از هر صندوق ورودی ارسال می کنید نمایش داده شود. همچنین می‌توانید یک تصویر درون خطی اضافه کنید که در چت، ایمیل و صندوق‌های ورودی API پشتیبانی می‌شود.",
         "BTN_TEXT": "ذخیره امضای پیام",
         "API_ERROR": "امضا ذخیره نشد! دوباره امتحان کنید",
         "API_SUCCESS": "امضا با موفقیت ذخیره شد",
         "IMAGE_UPLOAD_ERROR": "تصویر ارسال نشد! دوباره امتحان کنید",
         "IMAGE_UPLOAD_SUCCESS": "تصویر با موفقیت اضافه شد. لطفا بر روی ذخیره کلیک کنید تا امضا ذخیره شود",
-        "IMAGE_UPLOAD_SIZE_ERROR": "اندازه تصویر باید کمتر از {size} مگابایت باشد"
+        "IMAGE_UPLOAD_SIZE_ERROR": "اندازه تصویر باید کم‌تر از {size} مگابایت باشد"
       },
       "MESSAGE_SIGNATURE": {
         "LABEL": "امضای پیام",
@@ -89,39 +89,39 @@
         "TITLE": "توکن دسترسی",
         "NOTE": "از این توکن برای دسترسی از طریق API استفاده می‌شود",
         "COPY": "کپی",
-        "RESET": "Reset",
-        "CONFIRM_RESET": "Are you sure?",
-        "CONFIRM_HINT": "Click again to confirm",
-        "RESET_SUCCESS": "توکن دسترسی با موفقیت بازسازی شد",
-        "RESET_ERROR": "خطا در بازسازی توکن دسترسی. لطفا مجدد امتحان کنید"
+        "RESET": "بازتولید",
+        "CONFIRM_RESET": " آیا مطمئن هستید؟",
+        "CONFIRM_HINT": "برای تایید دوباره کلیک کنید",
+        "RESET_SUCCESS": "توکن دسترسی با موفقیت ساخته شد",
+        "RESET_ERROR": "بازسازی توکن دسترسی امکان‌پذیر نیست. لطفا دوباره تلاش کنید"
       },
       "AUDIO_NOTIFICATIONS_SECTION": {
-        "TITLE": "Audio Alerts",
-        "NOTE": "Enable audio alerts in dashboard for new messages and conversations.",
-        "PLAY": "Play sound",
+        "TITLE": "نوتیفیکیشن‌های صوتی",
+        "NOTE": "نوتیفیکیشن‌‌های صوتی را در داشبورد برای پیام‌ها و مکالمات جدید فعال کنید.",
+        "PLAY": "پخش صدا",
         "ALERT_TYPES": {
           "NONE": "هیچکدام",
-          "MINE": "اختصاص داده",
+          "MINE": "اختصاص داده‌شده",
           "ALL": "همه",
-          "ASSIGNED": "My assigned conversations",
-          "UNASSIGNED": "Unassigned conversations",
-          "NOTME": "Open conversations assigned to others"
+          "ASSIGNED": "مکالمات اختصاص داده‌شده به من",
+          "UNASSIGNED": "مکالمات بدون اختصاص",
+          "NOTME": "مکالمات باز اختصاص داده‌شده به دیگران"
         },
         "ALERT_COMBINATIONS": {
-          "NONE": "You haven't selected any options, you won't receive any audio alerts.",
-          "ASSIGNED": "You'll receive alerts for conversations assigned to you.",
-          "UNASSIGNED": "You'll receive alerts for any unassigned conversations.",
-          "NOTME": "You'll receive alerts for conversations assigned to others.",
-          "ASSIGNED+UNASSIGNED": "You'll receive alerts for your assigned conversations and any unattended ones.",
-          "ASSIGNED+NOTME": "You'll receive alerts for conversations assigned to you and to others, but not for unassigned ones.",
-          "NOTME+UNASSIGNED": "You'll receive alerts for unattended conversations and those assigned to others.",
-          "ASSIGNED+NOTME+UNASSIGNED": "You'll receive alerts for all conversations."
+          "NONE": "شما هیچ گزینه‌ای انتخاب نکرده‌اید، بنابراین هیچ هشدار صوتی دریافت نخواهید کرد.",
+          "ASSIGNED": "شما هشدارهایی برای مکالمات اختصاص داده‌شده به خود خواهید دریافت.",
+          "UNASSIGNED": "شما هشدارهایی برای هر مکالمه بدون اختصاص دریافت خواهید کرد.",
+          "NOTME": "شما هشدارهایی برای مکالمات اختصاص داده‌شده به دیگران دریافت خواهید کرد.",
+          "ASSIGNED+UNASSIGNED": "شما هشدارهایی برای مکالمات اختصاص داده‌شده به خود و هر مکالمه بدون اختصاص دریافت خواهید کرد.",
+          "ASSIGNED+NOTME": "شما هشدارهایی برای مکالمات اختصاص داده‌شده به خود و دیگران، اما نه برای مکالمات بدون اختصاص، دریافت خواهید کرد.",
+          "NOTME+UNASSIGNED": "شما هشدارهایی برای مکالمات بدون اختصاص و آن‌هایی که به دیگران اختصاص داده‌شده‌اند، دریافت خواهید کرد.",
+          "ASSIGNED+NOTME+UNASSIGNED": "شما هشدارهایی برای تمام مکالمات دریافت خواهید کرد."
         },
         "ALERT_TYPE": {
-          "TITLE": "Alert events for conversations",
+          "TITLE": "رویدادهای هشدار برای مکالمات:",
           "NONE": "هیچکدام",
-          "ASSIGNED": "مکالمات اختصاص داده شده",
-          "ALL_CONVERSATIONS": "همه گفتگوها"
+          "ASSIGNED": "مکالمات تخصیص داده شده",
+          "ALL_CONVERSATIONS": "همه گفتگو‌ها"
         },
         "DEFAULT_TONE": {
           "TITLE": "صدای هشدار:"
@@ -129,39 +129,66 @@
         "CONDITIONS": {
           "TITLE": "شرط‌های هشدار:",
           "CONDITION_ONE": "فقط در صورتی که پنجره مرورگر فعال نباشد، هشدارهای صوتی را ارسال کنید",
-          "CONDITION_TWO": "هر 30 ثانیه یک بار هشدار ارسال کنید تا زمانی که تمام مکالمات اختصاص داده شده خوانده شود"
+          "CONDITION_TWO": "هر 30 ثانیه یک بار هشدار ارسال کنید تا زمانی که تمام مکالمات تخصیص داده شده خوانده شود"
         },
-        "SOUND_PERMISSION_ERROR": "Autoplay is disabled in your browser. To hear alerts automatically, enable sound permission in your browser settings or interact with the page.",
-        "READ_MORE": "ادامه مطلب"
+        "SOUND_PERMISSION_ERROR": "پخش خودکار در مرورگر شما غیرفعال است. برای شنیدن هشدارها به طور خودکار، مجوز صدا را در تنظیمات مرورگر خود فعال کنید یا با صفحه تعامل کنید.",
+        "READ_MORE": "بیشتر بخوانید"
+      },
+      "TELEGRAM_BOT": {
+        "TITLE": "نوتیفیکیشن‌های ربات تلگرام",
+        "DESCRIPTION": "حساب تلگرام خود را متصل کنید تا نوتیفیکیشن‌ها را از طریق ربات تلگرام دریافت کنید",
+        "CONNECT": "اتصال",
+        "DISCONNECT": "قطع اتصال",
+        "CONNECTING": "در حال اتصال...",
+        "DISCONNECTING": "در حال قطع اتصال...",
+        "RETRY": "تلاش مجدد",
+        "STATUS": {
+          "CONNECTED": "متصل",
+          "DISCONNECTED": "متصل نیست",
+          "CONNECTING": "در حال اتصال...",
+          "ERROR": "خطای اتصال",
+          "WAITING_FOR_CONNECTION": "در انتظار اتصال...",
+          "BACKGROUND_POLLING": "نظارت پس‌زمینه فعال"
+        },
+        "NOTIFICATION_SETTINGS": "تنظیمات اعلامیه‌ها",
+        "CONNECT_FIRST": "لطفاً ابتدا ربات تلگرام خود را متصل کنید تا تنظیمات اعلان را پیکربندی کنید",
+        "CONNECTION_STEPS": {
+          "TITLE": "اتصال به ربات تلگرام",
+          "STEP_1": "روی لینک زیر کلیک کنید تا حساب تلگرام خود را متصل کنید",
+          "STEP_2": "لینک را در مرورگر یا اپلیکیشن تلگرام باز کنید",
+          "STEP_3": "این دستور را کپی کرده و به ربات ارسال کنید:"
+        },
+        "COPY_COMMAND": "کپی دستور",
+        "COMMAND_COPIED": "دستور در کلیپ‌بورد کپی شد!"
       },
       "EMAIL_NOTIFICATIONS_SECTION": {
         "TITLE": "اعلامیه‌ به ایمیل",
         "NOTE": "اینجا می‌توانید تنظیمات اعلامیه‌هایی که به ایمیل ارسال می‌شود تغییر دهید",
-        "CONVERSATION_ASSIGNMENT": "هر وقت گفتگویی به من اختصاص داده شد،‌ ایمیل بفرست",
+        "CONVERSATION_ASSIGNMENT": "هر وقت گفتگویی به من تخصیص داده شد،‌ ایمیل بفرست",
         "CONVERSATION_CREATION": "هر وقت گفتگوی جدیدی شروع شد برای من ایمیل بفرست",
-        "CONVERSATION_MENTION": "هنگامی که از شما در گفتگو نام برده می‌شود، از طریق ایمیل آگاه‌سازی ارسال کن",
-        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "با ایجاد پیام جدید در مکالمه اختصاصی ، اعلان های ایمیل را ارسال کنید",
-        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "هنگامی که یک پیام جدید در یک مکالمه شرکت کننده ایجاد می شود، اعلان های ایمیل ارسال کنید",
+        "CONVERSATION_MENTION": "هنگامی که در گفتگویی منشن می‌شوم، برای من ایمیل بفرست",
+        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "با ایجاد پیام جدید در مکالمه‌ای که به من تخصیص داده شده، برای من ایمیل بفرست",
+        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "با ایجاد پیام جدید در مکالمه‌ای که شرکت‌کننده‌ی آن هستم، برای من ایمیل بفرست",
         "SLA_MISSED_FIRST_RESPONSE": "هر وقت گفتگویی سیاست SLA مربوط به اولین زمان پاسخ را نقض کرد ایمیل ارسال کن",
         "SLA_MISSED_NEXT_RESPONSE": "هر وقت گفتگویی سیاست SLA مربوط به زمان پاسخ بعدی را نقض کرد ایمیل ارسال کن",
         "SLA_MISSED_RESOLUTION": "هر وقت گفتگویی سیاست SLA مربوط به زمان حل موضوع را نقض کرد ایمیل ارسال کن"
       },
       "NOTIFICATIONS": {
-        "TITLE": "تنظیمات آگاه‌سازی",
-        "TYPE_TITLE": "نوع آگاه‌سازی",
+        "TITLE": "تنظیمات نوتیفیکیشن‌ها",
+        "TYPE_TITLE": "نوع نوتیفیکیشن",
         "EMAIL": "ایمیل",
-        "PUSH": "Push notification",
+        "PUSH": "پوش نوتیفیکیشن",
         "TYPES": {
-          "CONVERSATION_CREATED": "A new conversation is created",
-          "CONVERSATION_ASSIGNED": "A conversation is assigned to you",
-          "CONVERSATION_MENTION": "You are mentioned in a conversation",
-          "ASSIGNED_CONVERSATION_NEW_MESSAGE": "A new message is created in an assigned conversation",
-          "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "A new message is created in a participating conversation",
-          "SLA_MISSED_FIRST_RESPONSE": "A conversation misses first response SLA",
-          "SLA_MISSED_NEXT_RESPONSE": "A conversation misses next response SLA",
-          "SLA_MISSED_RESOLUTION": "A conversation misses resolution SLA"
+          "CONVERSATION_CREATED": "یک گفتگوی جدید ایجاد شده است",
+          "CONVERSATION_ASSIGNED": "یک گفتگوی جدید به شما تخصیص یافته است",
+          "CONVERSATION_MENTION": "شما در یک گفتگو منشن شده‌اید",
+          "ASSIGNED_CONVERSATION_NEW_MESSAGE": "یک پیام جدید در مکالمه‌ای که به شما تخصیص یافته ارسال شده است",
+          "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "یک پیام جدید در مکالمه‌ای که شما در آن شرکت می‌کنید، ارسال شده است",
+          "SLA_MISSED_FIRST_RESPONSE": "یک مکالمه SLA اولین پاسخ را نقض کرده است",
+          "SLA_MISSED_NEXT_RESPONSE": "یک مکالمه SLA پاسخ بعدی را نقض کرده است",
+          "SLA_MISSED_RESOLUTION": "یک مکالمه SLA حل مساله را نقض کرده است"
         },
-        "BROWSER_PERMISSION": "Enable push notifications for your browser so you’re able to receive them"
+        "BROWSER_PERMISSION": "فعال‌سازی دریافت پوش نوتیفیکیشن در این مرورگر"
       },
       "API": {
         "UPDATE_SUCCESS": "تغییرات تنظیمات اعلامیه‌ها با موفقیت ثبت شد",
@@ -171,10 +198,10 @@
         "TITLE": "پوش نوتیفیکیشن",
         "NOTE": "اینجا می‌توانید تنظیمات پوش نوتیفیکیشن را تغییر دهید",
         "CONVERSATION_ASSIGNMENT": "هر وقت گفتگویی به من اختصاص داده شد، برای من پوش نوتیفیکیشن بفرست",
-        "CONVERSATION_CREATION": "هر وقت گفتگوی جدیدی شروع شد برای من پوش نوتیفیکیشن بفرست",
-        "CONVERSATION_MENTION": "هنگامی که از شما در مکالمه نام برده می شود پوش نوتیفیکیشن ارسال کنید",
-        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "وقتی پیام جدیدی در مکالمه اختصاص داده شده ایجاد می شود ، پوش نوتیفیکیشن را ارسال کنید",
-        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "هنگامی که یک پیام جدید در یک مکالمه شرکت کننده ایجاد می شود، اعلان فشار ارسال کنید",
+        "CONVERSATION_CREATION": "هروقت گفتگوی جدیدی شروع شد برای من پوش نوتیفیکیشن بفرست",
+        "CONVERSATION_MENTION": "هنگامی که در گفتگویی منشن می‌شوم، برای من پوش نوتیفیکیشن بفرست",
+        "ASSIGNED_CONVERSATION_NEW_MESSAGE": "با ایجاد پیام جدید در مکالمه‌ای که به من تخصیص داده شده، برای من پوش نوتیفیکیشن بفرست",
+        "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "با ایجاد پیام جدید در مکالمه‌ای که شرکت‌کننده‌ی آن هستم، برای من پوش نوتیفیکیشن بفرست",
         "HAS_ENABLED_PUSH": "در این مرورگر پوش نوتیفیکیشن را فعال کرده‌اید",
         "REQUEST_PUSH": "فعال کردن پوش نوتیفیکیشن",
         "SLA_MISSED_FIRST_RESPONSE": "هر وقت گفتگویی سیاست SLA مربوط به اولین زمان پاسخ را نقض کرد پوش ارسال کن",
@@ -192,7 +219,7 @@
       "DISPLAY_NAME": {
         "LABEL": "نام نمایشی",
         "ERROR": "لطفا یک نام نمایشی معتبر وارد کنید",
-        "PLACEHOLDER": "لطفا یک نام نمایشی وارد کنید، این نام در گفتگوها نمایش داده می‌شود"
+        "PLACEHOLDER": "لطفا یک نام نمایشی وارد کنید، این نام در گفتگو‌ها نمایش داده می‌شود"
       },
       "AVAILABILITY": {
         "LABEL": "در دسترس",
@@ -208,7 +235,7 @@
       "EMAIL": {
         "LABEL": "ایمیل شما",
         "ERROR": "لطفا ایمیل خود را به شکل صحیح وارد کنید",
-        "PLACEHOLDER": "لطفا ایمیل خود را وارد کنید، این ایمیل در گفتگوها دیده می‌شود"
+        "PLACEHOLDER": "لطفا ایمیل خود را وارد کنید، این ایمیل در گفتگو‌ها دیده می‌شود"
       },
       "CURRENT_PASSWORD": {
         "LABEL": "رمز عبور فعلی",
@@ -229,18 +256,18 @@
   },
   "SIDEBAR_ITEMS": {
     "CHANGE_AVAILABILITY_STATUS": "تغییر",
-    "CHANGE_ACCOUNTS": "Switch account",
-    "SWITCH_ACCOUNT": "Switch account",
-    "CONTACT_SUPPORT": "Contact support",
+    "CHANGE_ACCOUNTS": "تغییر اکانت",
+    "SWITCH_ACCOUNT": "تعویض اکانت",
+    "SWITCH_WORKSPACE": "تغییر محیط کاری",
+    "CONTACT_SUPPORT": "پشتیبانی مخاطبین",
     "SELECTOR_SUBTITLE": "از لیست یکی از حساب‌ها را انتخاب کنید",
-    "PROFILE_SETTINGS": "Profile settings",
-    "YEAR_IN_REVIEW": "Year in Review",
-    "KEYBOARD_SHORTCUTS": "Keyboard shortcuts",
-    "APPEARANCE": "Change appearance",
-    "SUPER_ADMIN_CONSOLE": "SuperAdmin console",
-    "DOCS": "Read documentation",
+    "PROFILE_SETTINGS": "تنظیمات پروفایل",
+    "KEYBOARD_SHORTCUTS": "میانبر‌های صفحه کلید",
+    "APPEARANCE": "تغییر ظاهر",
+    "SUPER_ADMIN_CONSOLE": "کنسول سوپر مدیر",
+    "DOCS": "مطالعه مستندات",
     "CHANGELOG": "Changelog",
-    "LOGOUT": "Log out"
+    "LOGOUT": "خروج از حساب کاربری"
   },
   "APP_GLOBAL": {
     "TRIAL_MESSAGE": "روز تا اتمام دوره آزمایشی باقی است.",
@@ -268,7 +295,7 @@
     },
     "SHOW_MORE_BLOCK": {
       "SHOW_MORE": "نمایش بیشتر",
-      "SHOW_LESS": "نمایش کمتر"
+      "SHOW_LESS": "نمایش کم‌تر"
     },
     "FILE_BUBBLE": {
       "DOWNLOAD": "دانلود",
@@ -282,8 +309,8 @@
       "SUBMIT": "ثبت"
     },
     "MEDIA": {
-      "IMAGE_UNAVAILABLE": "This image is no longer available.",
-      "LOADING_FAILED": "Loading failed"
+      "IMAGE_UNAVAILABLE": "این تصویر دیگر در دسترس نیست.",
+      "LOADING_FAILED": "بارگذاری ناموفق بود"
     }
   },
   "CONFIRM_EMAIL": "در حال تایید...",
@@ -293,39 +320,47 @@
     }
   },
   "SIDEBAR": {
-    "NO_ITEMS": "No items",
+    "NO_ITEMS": "هیچ موردی وجود ندارد",
     "CURRENTLY_VIEWING_ACCOUNT": "در حال مشاهده:",
     "SWITCH": "تعویض",
-    "INBOX_VIEW": "Inbox View",
-    "CONVERSATIONS": "گفتگوها",
-    "INBOX": "My Inbox",
-    "ALL_CONVERSATIONS": "همه گفتگوها",
-    "MENTIONED_CONVERSATIONS": "اشاره",
+    "INBOX_VIEW": "نمای صندوق ورودی",
+    "CONVERSATIONS": "گفتگو‌ها",
+    "INBOX": "صندوق‌های ورودی",
+    "ALL_CONVERSATIONS": "همه گفتگو‌ها",
+    "CHATBOT_CONVERSATIONS": "چت‌بات",
+    "CHATBOT_CONVERSATIONS_TOOLTIP": "چت‌هایی که ربات در حال پاسخگویی به آنها میباشد",
+    "MENTIONED_CONVERSATIONS": "‌منشن‌ها",
     "PARTICIPATING_CONVERSATIONS": "شرکت کننده",
-    "UNATTENDED_CONVERSATIONS": "بی سرپرست",
+    "UNATTENDED_CONVERSATIONS": "بی‌پاسخ",
     "REPORTS": "گزارشات",
+    "PRICING": {
+      "NAME": "مدیریت مالی",
+      "BUY_RENEW_SUBSCRIPTION": "خرید/تمدید اشتراک"
+    },
+    "BOTIFY": {
+      "NAME": "‌باتیفای",
+      "CORPORA": "منابع دانش",
+      "WORKFLOW": "ورک‌فلو",
+      "GUIDANCE": "دستورالعمل باتیفای",
+      "SETTINGS": "تنظیمات",
+      "REPORTS": "گزارش‌ها"
+    },
     "SETTINGS": "تنظیمات",
     "CONTACTS": "مخاطبین",
     "ACTIVE": "فعال",
-    "COMPANIES": "شرکت ها",
-    "ALL_COMPANIES": "All Companies",
     "CAPTAIN": "Captain",
     "CAPTAIN_ASSISTANTS": "Assistants",
     "CAPTAIN_DOCUMENTS": "Documents",
     "CAPTAIN_RESPONSES": "FAQs",
     "CAPTAIN_TOOLS": "Tools",
-    "CAPTAIN_SCENARIOS": "Scenarios",
-    "CAPTAIN_PLAYGROUND": "Playground",
-    "CAPTAIN_INBOXES": "صندوق‌های ورودی",
-    "CAPTAIN_SETTINGS": "تنظیمات",
     "HOME": "صفحه اصلی",
-    "AGENTS": "ایجنت ها",
+    "AGENTS": "کارشناس‌ها",
     "AGENT_BOTS": "ربات‌ها",
-    "AUDIT_LOGS": "بررسی لاگ هاگزارش های حسابرسی",
+    "AUDIT_LOGS": "لاگ‌ها",
     "INBOXES": "صندوق‌های ورودی",
-    "NOTIFICATIONS": "اعلان ها",
+    "NOTIFICATIONS": "نوتیفیکیشن‌ها",
     "CANNED_RESPONSES": "پاسخ‌های آماده",
-    "INTEGRATIONS": "برنامه‌های تلفیق شده",
+    "INTEGRATIONS": "یکپارچه‌سازی‌ها",
     "PROFILE_SETTINGS": "تنظیمات پروفایل",
     "ACCOUNT_SETTINGS": "تنظیمات حساب",
     "APPLICATIONS": "برنامه های کاربردی",
@@ -342,42 +377,42 @@
     "NEW_LABEL": "برچسب جدید",
     "NEW_TEAM": "تیم جدید",
     "NEW_INBOX": "صندوق ورودی جدید",
-    "REPORTS_CONVERSATION": "گفتگوها",
+    "REPORTS_CONVERSATION": "گفتگو‌ها",
     "CSAT": "رضایت مشتری",
-    "LIVE_CHAT": "Live Chat",
-    "SMS": "SMS",
+    "LIVE_CHAT": "چت زنده",
+    "SMS": "پبامک",
     "WHATSAPP": "WhatsApp",
-    "CAMPAIGNS": "کمپین ها",
+    "CAMPAIGNS": "کمپین‌ها",
     "ONGOING": "درحال انجام",
     "ONE_OFF": "یکبار مصرف",
     "REPORTS_SLA": "SLA",
-    "REPORTS_BOT": "ربات",
-    "REPORTS_AGENT": "ایجنت ها",
+    "REPORTS_BOT": "باتیفای",
+    "REPORTS_AGENT": "کارشناس‌ها",
     "REPORTS_LABEL": "برچسب‌ها",
     "REPORTS_INBOX": "صندوق ورودی",
     "REPORTS_TEAM": "تیم‌",
     "AGENT_ASSIGNMENT": "Agent Assignment",
     "SET_AVAILABILITY_TITLE": "خود را به عنوان",
-    "SET_YOUR_AVAILABILITY": "در دسترس بودن خود را تنظیم کنید",
+    "SET_YOUR_AVAILABILITY": "وضعیت حضور خود را تنظیم کنید",
     "SLA": "SLA",
-    "CUSTOM_ROLES": "Custom Roles",
+    "CUSTOM_ROLES": "نقش‌های سفارشی",
     "BETA": "آزمایشی",
     "REPORTS_OVERVIEW": "بررسی اجمالی",
-    "REAUTHORIZE": "Your inbox connection has expired, please reconnect\n to continue receiving and sending messages",
+    "REAUTHORIZE": "اتصال صندوق ورودی شما منقضی شده است، لطفاً برای ادامه دریافت و ارسال پیام‌ها دوباره اتصال را برقرار کنید",
     "HELP_CENTER": {
-      "TITLE": "مرکز راهنما",
-      "ARTICLES": "Articles",
+      "TITLE": "مرکز راهنمایی",
+      "ARTICLES": "مقالات",
       "CATEGORIES": "دسته‌بندی‌ها",
-      "LOCALES": "زبان‌های محلی",
+      "LOCALES": "زبان‌ها",
       "SETTINGS": "تنظیمات"
     },
-    "CHANNELS": "کانال‌ها",
+    "CHANNELS": "صندوق‌های ورودی",
     "SET_AUTO_OFFLINE": {
-      "TEXT": "علامت گذاری خودکار به صورت آفلاین",
-      "INFO_TEXT": "هنگامی که از برنامه یا پیشخوان استفاده نمی‌کنید، به سیستم اجازه دهید به طور خودکار شما را به صورت آفلاین علامت گذاری کند.",
-      "INFO_SHORT": "Automatically mark offline when you aren't using the app."
+      "TEXT": "به طور خودکار آفلاین شوید",
+      "INFO_TEXT": "به سیستم اجازه دهید که زمانی که از اپلیکیشن یا داشبورد استفاده نمی‌کنید، به طور خودکار شما را آفلاین کند.",
+      "INFO_SHORT": "زمانی که از اپلیکیشن استفاده نمی‌کنید، به طور خودکار آفلاین شوید."
     },
-    "DOCS": "اسناد را بخوانید",
+    "DOCS": "مستندات را بخوانید",
     "SECURITY": "Security"
   },
   "BILLING_SETTINGS": {
@@ -386,8 +421,8 @@
     "CURRENT_PLAN": {
       "TITLE": "طرح فعلی",
       "PLAN_NOTE": "شما در حال حاضر مشترک طرح **{plan}** با مجوز **{quantity}** هستید",
-      "SEAT_COUNT": "Number of seats",
-      "RENEWS_ON": "Renews on"
+      "SEAT_COUNT": "تعداد صندلی‌ها",
+      "RENEWS_ON": "تمدید در"
     },
     "VIEW_PRICING": "View Pricing",
     "MANAGE_SUBSCRIPTION": {
@@ -401,44 +436,19 @@
       "BUTTON_TXT": "Buy more credits",
       "DOCUMENTS": "Documents",
       "RESPONSES": "Responses",
-      "UPGRADE": "Captain is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
-      "REFRESH_CREDITS": "تازه کردن"
+      "UPGRADE": "Captain is not available on the free plan, upgrade now to get access to assistants, copilot and more."
     },
     "CHAT_WITH_US": {
       "TITLE": "به کمک احتياج داری؟",
       "DESCRIPTION": "آیا در صورتحساب با مشکلی مواجه هستید؟ ما اینجاییم تا کمک کنیم.",
       "BUTTON_TXT": "با ما گفتگو کنید"
     },
-    "NO_BILLING_USER": "صورتحساب حساب شما در حال پیکربندی است. لطفا صفحه را مجددا بارگزاری کرده و دوباره تلاش کنید.",
-    "TOPUP": {
-      "BUY_CREDITS": "Buy more credits",
-      "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
-      "CREDITS": "CREDITS",
-      "ONE_TIME": "one-time",
-      "POPULAR": "Most Popular",
-      "NOTE_TITLE": "یادداشت:",
-      "NOTE_DESCRIPTION": "Credits are added immediately and expire in 6 months. An active subscription is required to use credits. Purchased credits are consumed after your monthly plan credits.",
-      "CANCEL": "انصراف",
-      "PURCHASE": "Purchase Credits",
-      "LOADING": "Loading options...",
-      "FETCH_ERROR": "Failed to load credit options. Please try again.",
-      "PURCHASE_ERROR": "Failed to process purchase. Please try again.",
-      "PURCHASE_SUCCESS": "Successfully added {credits} credits to your account",
-      "CONFIRM": {
-        "TITLE": "Confirm Purchase",
-        "DESCRIPTION": "You are about to purchase {credits} credits for {amount}.",
-        "INSTANT_DEDUCTION_NOTE": "Your saved card will be charged immediately upon confirmation.",
-        "GO_BACK": "بازگشت",
-        "CONFIRM_PURCHASE": "Confirm Purchase"
-      }
-    }
+    "NO_BILLING_USER": "صورتحساب حساب شما در حال پیکربندی است. لطفا صفحه را مجددا بارگزاری کرده و دوباره تلاش کنید."
   },
   "SECURITY_SETTINGS": {
     "TITLE": "Security",
     "DESCRIPTION": "Manage your account security settings.",
     "LINK_TEXT": "Learn more about SAML SSO",
-    "SAML_DISABLED_MESSAGE": "SAML SSO is currently disabled. Please contact your administrator to enable this feature.",
     "SAML": {
       "TITLE": "SAML SSO",
       "NOTE": "Configure SAML single sign-on for your account. Users will authenticate through your identity provider instead of using email/password.",
@@ -454,7 +464,7 @@
       "CERTIFICATE": {
         "LABEL": "Signing certificate in PEM format",
         "HELP": "The public certificate from your identity provider used to verify SAML responses",
-        "PLACEHOLDER": "-----BEGIN CERTIFICATE-----\nMIIC..."
+        "PLACEHOLDER": "-----BEGIN CERTIFICATE----- \n MIIC..."
       },
       "FINGERPRINT": {
         "LABEL": "Fingerprint",
@@ -507,12 +517,12 @@
     }
   },
   "CREATE_ACCOUNT": {
-    "NO_ACCOUNT_WARNING": "اوه اوه! ما هیچ حسابی روی Chatwoot پاز شما پیدا نکردیم. لطفاً برای ادامه یک حساب جدید ایجاد کنید.",
-    "NEW_ACCOUNT": "حساب‌کاربری جدید",
-    "SELECTOR_SUBTITLE": "ایجاد حساب‌کاربری جدید",
+    "NO_ACCOUNT_WARNING": "اوه اوه! ما هیچ حساب کاربری روی گپیفای برای شما پیدا نکردیم. لطفاً برای ادامه یک حساب کاربری جدید ایجاد کنید.",
+    "NEW_ACCOUNT": "حساب‌ کاربری جدید",
+    "SELECTOR_SUBTITLE": "ایجاد حساب‌ ‌کاربری جدید",
     "API": {
-      "SUCCESS_MESSAGE": "حساب‌کاربری با موفقیت ایجاد شد",
-      "EXIST_MESSAGE": "این حساب‌کاربری از قبل وجود دارد",
+      "SUCCESS_MESSAGE": "حساب‌ ‌کاربری با موفقیت ایجاد شد",
+      "EXIST_MESSAGE": "این حساب‌ کاربری از قبل وجود دارد",
       "ERROR_MESSAGE": "ارتباط با سرور برقرار نشد، لطفا مجددا امتحان کنید"
     },
     "FORM": {
@@ -531,9 +541,9 @@
       "RESOLVE_AND_NEXT": "حل کنید و به مرحله بعدی بروید",
       "NAVIGATE_DROPDOWN": "به موارد کشویی بروید",
       "RESOLVE_CONVERSATION": "حل مکالمه",
-      "GO_TO_CONVERSATION_DASHBOARD": "به پیشخوان گفتگو بروید",
+      "GO_TO_CONVERSATION_DASHBOARD": "به داشبورد گفتگو بروید",
       "ADD_ATTACHMENT": "افزودن پیوست",
-      "GO_TO_CONTACTS_DASHBOARD": "به پیشخوان مخاطبین بروید",
+      "GO_TO_CONTACTS_DASHBOARD": "به داشبورد مخاطبین بروید",
       "TOGGLE_SIDEBAR": "نوار کناری",
       "GO_TO_REPORTS_SIDEBAR": "به نوار کناری گزارش ها بروید",
       "MOVE_TO_NEXT_TAB": "به برگه بعدی در فهرست مکالمه بروید",

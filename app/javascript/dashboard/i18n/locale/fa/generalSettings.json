@@ -1,10 +1,10 @@
 {
   "GENERAL_SETTINGS": {
     "LIMIT_MESSAGES": {
-      "CONVERSATION": "You have exceeded the conversation limit. Hacker plan allows only 500 conversations.",
-      "INBOXES": "You have exceeded the inbox limit. Hacker plan only supports website live-chat. Additional inboxes like email, WhatsApp etc. require a paid plan.",
-      "AGENTS": "You have exceeded the agent limit. Your plan only allows {allowedAgents} agents.",
-      "NON_ADMIN": "Please contact your administrator to upgrade the plan and continue using all features."
+      "CONVERSATION": "شما از حد مجاز گفتگو‌ها فراتر رفته‌اید. پلن هکر تنها ۵۰۰ گفتگو را پشتیبانی می‌کند.",
+      "INBOXES": "شما از حد مجاز صندوق‌های ورودی فراتر رفته‌اید. پلن هکر فقط پشتیبانی زنده وب‌سایت را پشتیبانی می‌کند. استفاده از صندوق‌هایی مانند ایمیل، واتساپ و غیره نیاز به پلن پولی دارد.",
+      "AGENTS": "شما از حد مجاز تعداد نماینده‌ها فراتر رفته‌اید. پلن هکر فقط اجازه استفاده از ۲ نماینده را می‌دهد.",
+      "NON_ADMIN": "لطفاً برای ارتقا پلن و ادامه استفاده از همه قابلیت‌ها با مدیر خود تماس بگیرید."
     },
     "TITLE": "تنظیمات حساب",
     "SUBMIT": "به‌روزرسانی تنظیمات",
@@ -15,23 +15,23 @@
       "SUCCESS": "تنظیمات با موفقیت اعمال شد"
     },
     "ACCOUNT_DELETE_SECTION": {
-      "TITLE": "Delete your Account",
-      "NOTE": "Once you delete your account, all your data will be deleted.",
-      "BUTTON_TEXT": "Delete Your Account",
+      "TITLE": "حذف حساب کاربری",
+      "NOTE": "پس از حذف حساب کاربری، تمام اطلاعات شما حذف خواهد شد.",
+      "BUTTON_TEXT": "حذف حساب کاربری",
       "CONFIRM": {
-        "TITLE": "Delete Account",
-        "MESSAGE": "Deleting your Account is irreversible. Enter your account name below to confirm you want to permanently delete it.",
+        "TITLE": "حذف حساب",
+        "MESSAGE": "حذف حساب کاربری غیرقابل بازگشت است. برای تأیید حذف دائمی، نام حساب خود را در زیر وارد کنید.",
         "BUTTON_TEXT": "حذف",
         "DISMISS": "انصراف",
         "PLACE_HOLDER": "برای تایید لطفا {accountName} را تایپ کنید"
       },
-      "SUCCESS": "Account marked for deletion",
-      "FAILURE": "Could not delete account, try again!",
+      "SUCCESS": "حساب برای حذف علامت‌گذاری شد",
+      "FAILURE": "امکان حذف حساب وجود ندارد، لطفاً دوباره تلاش کنید!",
       "SCHEDULED_DELETION": {
-        "TITLE": "Account Scheduled for Deletion",
-        "MESSAGE_MANUAL": "This account is scheduled for deletion on {deletionDate}. This was requested by an administrator. You can cancel the deletion before this date.",
-        "MESSAGE_INACTIVITY": "This account is scheduled for deletion on {deletionDate} due to account inactivity. You can cancel the deletion before this date.",
-        "CLEAR_BUTTON": "Cancel Scheduled Deletion"
+        "TITLE": "حذف برنامه‌ریزی‌شده حساب",
+        "MESSAGE_MANUAL": "این حساب برای حذف در تاریخ {deletionDate} برنامه‌ریزی شده است. این درخواست توسط یک مدیر ثبت شده است. شما می‌توانید قبل از این تاریخ حذف را لغو کنید.",
+        "MESSAGE_INACTIVITY": "این حساب به دلیل غیرفعال بودن، برای حذف در تاریخ {deletionDate} برنامه‌ریزی شده است. شما می‌توانید قبل از این تاریخ حذف را لغو کنید.",
+        "CLEAR_BUTTON": "لغو حذف برنامه‌ریزی‌شده"
       }
     },
     "FORM": {
@@ -41,123 +41,145 @@
         "NOTE": ""
       },
       "ACCOUNT_ID": {
-        "TITLE": "شناسه حساب‌کاربری",
+        "TITLE": "شناسه حساب‌ کاربری",
         "NOTE": "اگر شما در حال ساخت یک یکپارچه‌سازی مبتنی بر API هستید، این شناسه مورد نیاز است"
       },
       "AUTO_RESOLVE": {
-        "TITLE": "Auto-resolve conversations",
-        "NOTE": "This configuration would allow you to automatically resolve the conversation after a certain period of inactivity.",
+        "TITLE": "بستن خودکار گفتگو‌ها",
+        "NOTE": "این تنظیم به شما اجازه می‌دهد گفتگو‌ها را پس از مدت زمان مشخصی به‌صورت خودکار ببندید. مدت زمان را مشخص کرده و پیام مورد نظر برای کاربر را در زیر تنظیم کنید.",
         "DURATION": {
-          "LABEL": "Inactivity duration",
-          "HELP": "Time period of inactivity after which conversation is auto-resolved",
+          "LABEL": "مدت زمان عدم فعالیت",
+          "HELP": "مدت زمانی که پس از آن مکالمه به‌طور خودکار حل می‌شود",
           "PLACEHOLDER": "۳۰",
-          "ERROR": "Auto resolve duration should be between 10 minutes and 999 days",
+          "ERROR": "مدت زمان حل خودکار باید بین ۱۰ دقیقه تا ۹۹۹ روز باشد",
           "API": {
-            "SUCCESS": "Auto resolve settings updated successfully",
-            "ERROR": "Failed to update auto resolve settings"
+            "SUCCESS": "تنظیمات حل خودکار با موفقیت به‌روزرسانی شد",
+            "ERROR": "به‌روزرسانی تنظیمات حل خودکار ناموفق بود"
           }
         },
         "MESSAGE": {
-          "LABEL": "Custom auto-resolution message",
-          "PLACEHOLDER": "Conversation was marked resolved by system due to 15 days of inactivity",
-          "HELP": "Message sent to the customer after conversation is auto-resolved"
+          "LABEL": "پیام حل خودکار سفارشی",
+          "PLACEHOLDER": "مکالمه به دلیل ۱۵ روز عدم فعالیت توسط سیستم به‌عنوان حل‌شده علامت‌گذاری شد",
+          "HELP": "پیامی که پس از حل خودکار مکالمه به مشتری ارسال می‌شود"
         },
         "PREFERENCES": "تنظیمات",
         "LABEL": {
-          "LABEL": "Add label after auto-resolution",
-          "PLACEHOLDER": "Select a label"
+          "LABEL": "افزودن برچسب پس از حل خودکار",
+          "PLACEHOLDER": "یک برچسب انتخاب کنید"
         },
         "IGNORE_WAITING": {
-          "LABEL": "Skip conversations waiting for agent’s reply"
+          "LABEL": "بر روی مکالماتی که منتظر پاسخ از کارشناس هستند اعمال نکن"
         },
-        "UPDATE_BUTTON": "Save Changes"
+        "UPDATE_BUTTON": "ذخیره تغییرات"
       },
       "NAME": {
-        "LABEL": "نام حساب‌کاربری",
-        "PLACEHOLDER": "نام حساب‌کاربری شما",
-        "ERROR": "لطفا نام حساب‌کاربری را به درستی وارد نمایید"
+        "LABEL": "نام حساب‌ ‌کاربری",
+        "PLACEHOLDER": "نام حساب‌ ‌کاربری شما",
+        "ERROR": "لطفا نام حساب‌ کاربری را به درستی وارد نمایید"
       },
       "LANGUAGE": {
         "LABEL": "زبان سایت",
-        "PLACEHOLDER": "نام حساب‌کاربری شما",
+        "PLACEHOLDER": "نام حساب‌ کاربری شما",
         "ERROR": ""
-      },
-      "DOMAIN": {
-        "LABEL": "دامنه ایمیل ورودی",
-        "PLACEHOLDER": "دامنه‌ای که در آن ایمیل‌ها را دریافت خواهید کرد",
-        "ERROR": ""
-      },
-      "SUPPORT_EMAIL": {
-        "LABEL": "ایمیل پشتیبانی",
-        "PLACEHOLDER": "ایمیل پشتیبانی شرکت شما",
-        "ERROR": ""
-      },
-      "AUTO_RESOLVE_IGNORE_WAITING": {
-        "LABEL": "Exclude unattended conversations",
-        "HELP": "When enabled, the system will skip resolving conversations that are still waiting for an agent's reply."
-      },
-      "AUDIO_TRANSCRIPTION": {
-        "TITLE": "Transcribe Audio Messages",
-        "NOTE": "Automatically transcribe audio messages in conversations. Generate a text transcript whenever an audio message is sent or received, and display it alongside the message.",
-        "API": {
-          "SUCCESS": "Audio transcription setting updated successfully",
-          "ERROR": "Failed to update audio transcription setting"
-        }
+      }
+    },
+    "DOMAIN": {
+      "LABEL": "دامنه ایمیل ورودی",
+      "PLACEHOLDER": "دامنه‌ای که در آن ایمیل‌ها را دریافت خواهید کرد",
+      "ERROR": ""
+    },
+    "SUPPORT_EMAIL": {
+      "LABEL": "ایمیل پشتیبانی",
+      "PLACEHOLDER": "ایمیل پشتیبانی شرکت شما",
+      "ERROR": ""
+    },
+    "AUTO_RESOLVE_IGNORE_WAITING": {
+      "LABEL": "نادیده‌گرفتن گفتگو‌های بی‌پاسخ",
+      "HELP": "در صورت فعال بودن، سیستم گفتگو‌هایی را که هنوز منتظر پاسخ نماینده هستند، از فرآیند بستن خودکار حذف می‌کند."
+    },
+    "AUDIO_TRANSCRIPTION": {
+      "TITLE": "Transcribe Audio Messages",
+      "NOTE": "Automatically transcribe audio messages in conversations. Generate a text transcript whenever an audio message is sent or received, and display it alongside the message.",
+      "API": {
+        "SUCCESS": "Audio transcription setting updated successfully",
+        "ERROR": "Failed to update audio transcription setting"
       },
       "AUTO_RESOLVE_DURATION": {
-        "LABEL": "Inactivity duration for resolution",
-        "HELP": "Duration after a conversation should auto resolve if there is no activity",
+        "LABEL": "مدت زمان بی‌فعالیتی برای بستن گفتگو",
+        "HELP": "مدتی که اگر در آن هیچ فعالیتی انجام نشود، گفتگو به‌صورت خودکار بسته می‌شود.",
         "PLACEHOLDER": "۳۰",
-        "ERROR": "Auto resolve duration should be between 10 minutes and 999 days",
+        "ERROR": "مدت زمان بستن خودکار باید بین ۱۰ دقیقه تا ۹۹۹ روز باشد.",
         "API": {
-          "SUCCESS": "Auto resolve settings updated successfully",
-          "ERROR": "Failed to update auto resolve settings"
+          "SUCCESS": "تنظیمات بستن خودکار با موفقیت به‌روزرسانی شد.",
+          "ERROR": "به‌روزرسانی تنظیمات بستن خودکار با خطا مواجه شد."
         },
         "UPDATE_BUTTON": "اعمال شود",
-        "MESSAGE_LABEL": "Custom resolution message",
-        "MESSAGE_PLACEHOLDER": "Conversation was marked resolved by system due to 15 days of inactivity",
-        "MESSAGE_HELP": "This message is sent to the customer when a conversation is automatically resolved by the system due to inactivity."
+        "MESSAGE_LABEL": "پیام سفارشی برای بستن گفتگو",
+        "MESSAGE_PLACEHOLDER": "گفتگو به دلیل ۱۵ روز بی‌فعالیتی توسط سیستم بسته شد.",
+        "MESSAGE_HELP": "این پیام زمانی برای مشتری ارسال می‌شود که یک گفتگو به دلیل بی‌فعالیتی به‌صورت خودکار توسط سیستم بسته شده باشد."
       },
       "FEATURES": {
         "INBOUND_EMAIL_ENABLED": "تداوم مکالمه با ایمیل برای حساب شما فعال است.",
         "CUSTOM_EMAIL_DOMAIN_ENABLED": "اکنون می‌توانید ایمیل‌ها را در دامنه سفارشی خود دریافت کنید."
       }
     },
-    "UPDATE_CHATWOOT": "به روزرسانی{latestChatwootVersion} برای Chatwoot در دسترس است. لطفا نمونه خود را به روز کنید.",
+    "UPDATE_CHATWOOT": "به روزرسانی{latestChatwootVersion} برای Gapify در دسترس است. لطفا نمونه خود را به روز کنید.",
     "LEARN_MORE": "بیشتر بدانید",
-    "PAYMENT_PENDING": "پرداخت شما در حال پردازش است. لطفاً اطلاعات پرداخت خود را برای ادامه استفاده از Chatwoot به روز کنید",
-    "UPGRADE": "Upgrade to continue using Chatwoot",
-    "LIMITS_UPGRADE": "حساب شما از محدودیت های استفاده فراتر رفته است، لطفاً برای ادامه استفاده از Chatwoot برنامه خود را ارتقا دهید",
+    "PAYMENT_PENDING": "پرداخت شما در حال پردازش است. لطفاً اطلاعات پرداخت خود را برای ادامه استفاده از Gapify به روز کنید",
+    "UPGRADE": "برای ادامه استفاده از Gapify، پلن خود را ارتقا دهید",
+    "LIMITS_UPGRADE": "حساب شما از محدودیت های استفاده فراتر رفته است، لطفاً برای ادامه استفاده از Gapify برنامه خود را ارتقا دهید",
     "OPEN_BILLING": "باز کردن صورتحساب"
   },
   "FORMS": {
     "MULTISELECT": {
       "ENTER_TO_SELECT": "برای انتخاب Enter را فشار دهید",
       "ENTER_TO_REMOVE": "برای حذف دکمه enter را فشار دهید",
-      "NO_OPTIONS": "List is empty",
+      "NO_OPTIONS": "لیست خالی می‌باشد.",
       "SELECT_ONE": "یکی را انتخاب کن",
-      "SELECT": "انتخاب کنید"
+      "SELECT": "انتخاب کنید",
+      "VALUES": {
+        "ASSIGN_TEAM": "اختصاص تیم",
+        "ASSIGN_AGENT": "اختصاص کارشناس",
+        "ADD_LABEL": "افزودن برچسب",
+        "REMOVE_LABEL": "حذف برچسب",
+        "REMOVE_ASSIGNED_TEAM": "حذف تیم اختصاص داده شده",
+        "SEND_EMAIL_TRANSCRIPT": "فرستادن ایمیل رونوشت",
+        "MUTE_CONVERSATION": "بی‌صدا کردن گفتگو",
+        "SNOOZE_CONVERSATION": "به تعویق انداختن گفتگو",
+        "RESOLVE_CONVERSATION": "حل کردن گفتگو",
+        "SEND_ATTACHMENT": "فرستادن پیوست",
+        "SEND_MESSAGE": "فرستادن پیام",
+        "ADD_PRIVATE_NOTE": "افزودن یادداشت شخصی",
+        "CHANGE_PRIORITY": "تغییر اولویت",
+        "SEND_EMAIL_TO_TEAM": "فرستادن ایمیل به تیم",
+        "SEND_WEBHOOK_EVENT": "فرستادن رویداد وب‌هوک"
+      },
+      "OPTIONS": {
+        "NONE": "هیچ",
+        "LOW": "کم",
+        "MEDIUM": "معمول",
+        "HIGH": "بالا",
+        "URGENT": "فوری",
+        "INCOMING_MESSAGE": "پیام ورودی",
+        "OUTGOING_MESSAGE": "پیام خروجی",
+        "SELF": "خود"
+      }
     }
   },
   "NOTIFICATIONS_PAGE": {
-    "HEADER": "اعلان ها",
+    "HEADER": "نوتیفیکیشن‌ها",
     "MARK_ALL_DONE": "همه را به انجام شده تغییر بده",
     "DELETE_TITLE": "حذف شده",
     "UNREAD_NOTIFICATION": {
-      "TITLE": "آگاه‌سازی‌های خوانده نشده",
-      "ALL_NOTIFICATIONS": "مشاهده همه آگاه‌سازی‌ها",
-      "LOADING_UNREAD_MESSAGE": "در حال بارگیری آگاه‌سازی‌های خوانده نشده...",
-      "EMPTY_MESSAGE": "شما هیچ آگاه‌سازی‌ خوانده نشده‌ای ندارید"
+      "TITLE": "نوتیفیکیشن خوانده نشده",
+      "ALL_NOTIFICATIONS": "مشاهده همه نوتیفیکیشن‌ها",
+      "LOADING_UNREAD_MESSAGE": "در حال بارگیری نوتیفیکیشن‌های خوانده نشده...",
+      "EMPTY_MESSAGE": "شما هیچ نوتیفیکیش خوانده نشده‌ای ندارید"
     },
     "LIST": {
-      "LOADING_MESSAGE": "در حال بارگیری اعلان ها...",
-      "404": "اعلانی وجود ندارد",
-      "TABLE_HEADER": [
-        "نام",
-        "شماره تلفن",
-        "گفتگوها",
-        "آخرین تماس"
-      ]
+      "404": "نوتیفیکیشنی وجود ندارد",
+      "LOADING_MESSAGE": "در حال بارگیری نوتیفیکیشن‌ها...",
+      "TABLE_HEADER": ["نام", "شماره تلفن", "گفتگو‌ها", "آخرین تماس"]
     },
     "TYPE_LABEL": {
       "conversation_creation": "گفتگوی جدید",
@@ -173,8 +195,8 @@
   "NETWORK": {
     "NOTIFICATION": {
       "OFFLINE": "آفلاین",
-      "RECONNECTING": "Reconnecting...",
-      "RECONNECT_SUCCESS": "Reconnected"
+      "RECONNECTING": "در حال اتصال...",
+      "RECONNECT_SUCCESS": "متصل شد"
     },
     "BUTTON": {
       "REFRESH": "تازه کردن"
@@ -186,8 +208,8 @@
       "GENERAL": "عمومی",
       "REPORTS": "گزارشات",
       "CONVERSATION": "گفتگو",
-      "BULK_ACTIONS": "Bulk Actions",
-      "CHANGE_ASSIGNEE": "اپراتور را تغییر دهید",
+      "BULK_ACTIONS": "عملیات گروهی",
+      "CHANGE_ASSIGNEE": "کارشناس را تغییر دهید",
       "CHANGE_PRIORITY": "تغییر اولویت",
       "CHANGE_TEAM": "تیم را تغییر دهید",
       "SNOOZE_CONVERSATION": "به تعویق انداختن مکالمه",
@@ -196,28 +218,28 @@
       "SETTINGS": "تنظیمات",
       "AI_ASSIST": "دستیار هوش مصنوعی",
       "APPEARANCE": "ظاهری",
-      "SNOOZE_NOTIFICATION": "به تعویق انداختن آگاه‌سازی"
+      "SNOOZE_NOTIFICATION": "به تعویق انداختن نوتیفیکیشن"
     },
     "COMMANDS": {
       "GO_TO_CONVERSATION_DASHBOARD": "به داشبورد مکالمه بروید",
       "GO_TO_CONTACTS_DASHBOARD": "به داشبورد مخاطبین بروید",
       "GO_TO_REPORTS_OVERVIEW": "به نمای کلی گزارش ها بروید",
       "GO_TO_CONVERSATION_REPORTS": "به گزارش های گفتگو بروید",
-      "GO_TO_AGENT_REPORTS": "به گزارش های اپراتور بروید",
+      "GO_TO_AGENT_REPORTS": "به گزارش های کارشناس بروید",
       "GO_TO_LABEL_REPORTS": "به گزارش برچسب بروید",
       "GO_TO_INBOX_REPORTS": "به گزارش صندوق ورودی بروید",
       "GO_TO_TEAM_REPORTS": "به گزارش تیم بروید",
-      "GO_TO_SETTINGS_AGENTS": "به تنظیمات اپراتور بروید",
+      "GO_TO_SETTINGS_AGENTS": "به تنظیمات کارشناس بروید",
       "GO_TO_SETTINGS_TEAMS": "به تنظیمات تیم بروید",
       "GO_TO_SETTINGS_INBOXES": "به تنظیمات صندوق ورودی بروید",
       "GO_TO_SETTINGS_LABELS": "به تنظیمات برچسب بروید",
-      "GO_TO_SETTINGS_CANNED_RESPONSES": "به تنظیمات Canned Response بروید",
+      "GO_TO_SETTINGS_CANNED_RESPONSES": "به تنظیمات پاسخ‌های از پیش تعیین شده بروید",
       "GO_TO_SETTINGS_APPLICATIONS": "به تنظیمات برنامه بروید",
       "GO_TO_SETTINGS_ACCOUNT": "به تنظیمات حساب بروید",
       "GO_TO_SETTINGS_PROFILE": "به تنظیمات پروفایل بروید",
       "GO_TO_NOTIFICATIONS": "به اعلان ها بروید",
       "ADD_LABELS_TO_CONVERSATION": "برچسب را به مکالمه اضافه کنید",
-      "ASSIGN_AN_AGENT": "یک اپراتور تعیین کنید",
+      "ASSIGN_AN_AGENT": "یک کارشناس تعیین کنید",
       "AI_ASSIST": "دستیار هوش مصنوعی",
       "ASSIGN_PRIORITY": "انتساب اولویت",
       "ASSIGN_A_TEAM": "یک تیم را تعیین کنید",
@@ -238,11 +260,11 @@
       "LIGHT_MODE": "روشن",
       "DARK_MODE": "تیره",
       "SYSTEM_MODE": "سیستم",
-      "SNOOZE_NOTIFICATION": "به تعویق انداختن آگاه‌سازی"
+      "SNOOZE_NOTIFICATION": "به تعویق انداختن نوتیفیکیشن"
     }
   },
   "DASHBOARD_APPS": {
-    "LOADING_MESSAGE": "در حال بارگیری برنامه پیشخوان..."
+    "LOADING_MESSAGE": "در حال بارگیری برنامه پیشخان..."
   },
   "COMMON": {
     "OR": "یا",

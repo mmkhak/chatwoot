@@ -3,8 +3,8 @@
     "HEADER": "ویژگی‌های سفارشی",
     "HEADER_BTN_TXT": "اضافه کردن ویژگی سفارشی",
     "LOADING": "واکشی ویژگی‌های سفارشی",
-    "DESCRIPTION": "A custom attribute tracks additional details about your contacts or conversations—such as the subscription plan or the date of their first purchase. You can add different types of custom attributes, such as text, lists, or numbers, to capture the specific information you need.",
-    "LEARN_MORE": "Learn more about custom attributes",
+    "DESCRIPTION": "یک ویژگی سفارشی، جزئیات اضافی در مورد مخاطبین یا مکالمات شما را پیگیری می‌کند — مانند طرح اشتراک یا تاریخ اولین خرید آن‌ها. شما می‌توانید انواع مختلفی از ویژگی‌های سفارشی مانند متن، لیست‌ها یا اعداد را اضافه کنید تا اطلاعات خاص مورد نیاز خود را ثبت کنید.",
+    "LEARN_MORE": "بیشتر درباره ویژگی‌های سفارشی بدانید",
     "ATTRIBUTE_MODELS": {
       "CONVERSATION": "گفتگو",
       "CONTACT": "مخاطب"
@@ -13,7 +13,7 @@
       "TEXT": "متن",
       "NUMBER": "شماره",
       "LINK": "پیوند",
-      "DATE": "Date",
+      "DATE": "تاریخ",
       "LIST": "فهرست",
       "CHECKBOX": "چک باکس"
     },
@@ -35,12 +35,24 @@
         "MODEL": {
           "LABEL": "شامل",
           "PLACEHOLDER": "لطفا یکی را انتخاب کنید",
-          "ERROR": "مدل مورد نیاز است"
+          "ERROR": "مدل مورد نیاز است",
+          "OPTIONS": {
+            "CONVERSATION": "گفتگو",
+            "CONTACT": "مخاطب"
+          }
         },
         "TYPE": {
           "LABEL": "نوع",
-          "PLACEHOLDER": "لطفا نوع دسترسی اپراتور را مشخص کنید",
+          "PLACEHOLDER": "لطفا نوع دسترسی کارشناس را مشخص کنید",
           "ERROR": "نوع الزامی است",
+          "OPTIONS": {
+            "TEXT": "متن",
+            "NUMBER": "شماره",
+            "LINK": "پیوند",
+            "DATE": "تاریخ",
+            "LIST": "لیست",
+            "CHECKBOX": "چک‌باکس"
+          },
           "LIST": {
             "LABEL": "لیست مقادیر",
             "PLACEHOLDER": "لطفا مقدار را وارد کنید و کلید enter را فشار دهید",
@@ -58,7 +70,7 @@
           "PLACEHOLDER": "لطفا الگوی رجکس ویژگی سفارشی را وارد کنید. (اختباری)"
         },
         "REGEX_CUE": {
-          "LABEL": "Regex Cue",
+          "LABEL": "راهنمای رجکس",
           "PLACEHOLDER": "لطفا توضیحات مربوط به الگوری رجکس را وارد کنید. (اختیاری)"
         },
         "ENABLE_REGEX": {
@@ -120,19 +132,15 @@
       },
       "REGEX_PATTERN": {
         "LABEL": "الگوی رجکس",
-        "PLACEHOLDER": "لطفا الگوی رجکس ویژگی سفارشی را وارد کنید. (اختباری)"
+        "PLACEHOLDER": "لطفا الگوی رجکس ویژگی سفارشی را وارد کنید. (اختیاری)"
       },
       "REGEX_CUE": {
-        "LABEL": "Regex Cue",
+        "LABEL": "علامت‌گذاری Regex",
         "PLACEHOLDER": "لطفا توضیحات مربوط به الگوری رجکس را وارد کنید. (اختیاری)"
       },
       "ENABLE_REGEX": {
-        "LABEL": "فعال سازی بررسی رجکس"
+        "LABEL": "فعال‌سازی بررسی رجکس"
       }
-    },
-    "BADGES": {
-      "PRE_CHAT": "Pre-chat",
-      "RESOLUTION": "Resolution"
     }
   }
 }

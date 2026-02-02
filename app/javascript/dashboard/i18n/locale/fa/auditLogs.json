@@ -3,18 +3,18 @@
     "HEADER": "گزارش های حسابرسی",
     "HEADER_BTN_TXT": "اضافه کردن گزارش های حسابرسی",
     "LOADING": "واکشی گزارش های حسابرسی",
-    "DESCRIPTION": "Audit Logs maintain a record of activities in your account, allowing you to track and audit your account, team, or services.",
-    "LEARN_MORE": "Learn more about audit logs",
+    "DESCRIPTION": "گزارش‌های حساب فعالیت‌های انجام شده در حساب شما را ثبت می‌کنند و به شما این امکان را می‌دهند که حساب، تیم یا خدمات خود را پیگیری و بررسی کنید.",
+    "LEARN_MORE": "بیشتر درباره گزارش‌های حساب بدانید",
     "SEARCH_404": "هیچ آیتمی با این مشخصات یافت نشد",
-    "SIDEBAR_TXT": "<p><b>گزارش‌های حسابرسی</b> </p><p> گزارش‌های حسابرسی مسیرهایی برای رویدادها و اقدامات در یک سیستم Chatwoot هستند. </p>",
+    "SIDEBAR_TXT": "<p><b>گزارش‌های حسابرسی</b> </p><p> گزارش‌های حسابرسی مسیرهایی برای رویدادها و اقدامات در یک سیستم Gapify هستند. </p>",
     "LIST": {
       "404": "هیچ گزارش حسابرسی در این حساب موجود نیست.",
       "TITLE": "مدیریت گزارش های حسابرسی",
-      "DESC": "گزارش های حسابرسی مسیرهایی برای رویدادها و اقدامات در یک سیستم چت ووت هستند.",
+      "DESC": "گزارش های حسابرسی مسیرهایی برای رویدادها و اقدامات در یک سیستم گپیفای هستند.",
       "TABLE_HEADER": {
-        "ACTIVITY": "کاربر",
-        "TIME": "اقدام",
-        "IP_ADDRESS": "آدرس آی‌پی"
+        "ACTIVITY": "فعالیت",
+        "TIME": "زمان",
+        "IP_ADDRESS": "آدرس IP"
       }
     },
     "API": {
@@ -23,16 +23,16 @@
     },
     "DEFAULT_USER": "سیستم",
     "AUTOMATION_RULE": {
-      "ADD": "{agentName} created a new automation rule (#{id})",
-      "EDIT": "{agentName} updated an automation rule (#{id})",
-      "DELETE": "{agentName} deleted an automation rule (#{id})"
+      "ADD": "{agentName} یک قانون خودکارسازی جدید ساخت ({id})",
+      "EDIT": "{agentName} یک قانون خودکارسازی را ویرایش کرد. ({id})",
+      "DELETE": "{agentName} یک قانون خودکارسازی را حذف کرد. ({id})"
     },
     "ACCOUNT_USER": {
       "ADD": "{agentName} از {invitee} دعوت کرد به عنوان {role} به سیستم اضافه شود",
       "EDIT": {
         "SELF": "{agentName} مقدار {attributes} را به {values} تغییر داد",
         "OTHER": "{agentName} مقدار {attributes} مربوط به {user} را به {values} تغییر داد",
-        "DELETED": "{agentName} changed {attributes} of a deleted user to {values}"
+        "DELETED": "{agentName} {attributes} یک کاربر حذف‌شده را به {values} تغییر داد"
       }
     },
     "INBOX": {

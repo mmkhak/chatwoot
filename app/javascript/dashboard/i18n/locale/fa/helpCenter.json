@@ -1,9 +1,9 @@
 {
   "HELP_CENTER": {
-    "TITLE": "مرکز راهنما",
+    "TITLE": "مرکز راهنمایی",
     "NEW_PAGE": {
-      "DESCRIPTION": "Create self-service help center portals for your customers. Help them find answers quickly, without waiting. Streamline inquiries, boost agent efficiency, and elevate customer support.",
-      "CREATE_PORTAL_BUTTON": "ایجاد پورتال"
+      "DESCRIPTION": "مرکز‌ راهنماهای عمومی شامل مقالات مختلف برای مشتریان خود بسازید. به آن‌ها کمک کنید تا سریعاً پاسخ‌ها را پیدا کنند، بدون نیاز به انتظار. درخواست‌ها را ساده‌سازی کنید، کارایی کارشناس‌ها را افزایش دهید و پشتیبانی مشتری را بهبود بخشید.",
+      "CREATE_PORTAL_BUTTON": "ایجاد درگاه"
     },
     "HEADER": {
       "FILTER": "فیلتر براساس",
@@ -46,10 +46,10 @@
         "UPLOADING": "در حال آپلود...",
         "SUCCESS": "تصویر با موفقیت آپلود شد",
         "ERROR": "خطا هنگام آپلود تصویر",
-        "UN_AUTHORIZED_ERROR": "You are not authorized to upload images",
-        "ERROR_FILE_SIZE": "اندازه تصویر باید کمتر از {size} مگابایت باشد",
+        "UN_AUTHORIZED_ERROR": "شما مجاز به بارگذاری تصاویر نیستید",
+        "ERROR_FILE_SIZE": "اندازه تصویر باید کم‌تر از {size} مگابایت باشد",
         "ERROR_FILE_FORMAT": "فرمت تصویر باید jpg، jpeg یا png باشد",
-        "ERROR_FILE_DIMENSIONS": "ابعاد تصویر باید کمتر از 2000*2000 باشد"
+        "ERROR_FILE_DIMENSIONS": "ابعاد تصویر باید کم‌تر از 2000*2000 باشد"
       }
     },
     "ARTICLE_SETTINGS": {
@@ -113,7 +113,7 @@
         "PORTAL_SETTINGS": "تنظیمات پورتال",
         "SUBTITLE": "شما چندین پورتال دارید و می‌توانید برای هر پورتال مکان‌های متفاوتی داشته باشید.",
         "CANCEL_BUTTON_LABEL": "انصراف",
-        "CHOOSE_LOCALE_BUTTON": "Locale را انتخاب کنید"
+        "CHOOSE_LOCALE_BUTTON": "زبان را انتخاب کنید"
       },
       "PORTAL_SETTINGS": {
         "LIST_ITEM": {
@@ -129,7 +129,7 @@
             "ITEMS": {
               "NAME": "نام",
               "DOMAIN": "دامنه سفارشی",
-              "SLUG": "Slug",
+              "SLUG": "نام مستعار",
               "TITLE": "عنوان پورتال",
               "THEME": "رنگ تم",
               "SUB_TEXT": "متن فرعی پورتال"
@@ -141,7 +141,7 @@
               "NAME": "نام محلی",
               "CODE": "کد محلی",
               "ARTICLE_COUNT": "تعداد مقالات",
-              "CATEGORIES": "تعداد دسته ها",
+              "CATEGORIES": "تعداد دسته‌ها",
               "SWAP": "تعویض کنید",
               "DELETE": "حذف",
               "DEFAULT_LOCALE": "پیش‌فرض"
@@ -172,7 +172,7 @@
             "TITLE": "اطلاعات اولیه"
           },
           "CUSTOMIZATION_SETTINGS": {
-            "TITLE": "سفارشی سازی پورتال"
+            "TITLE": "سفارشی‌سازی پورتال"
           },
           "CATEGORY_SETTINGS": {
             "TITLE": "دسته‌بندی‌ها"
@@ -207,7 +207,7 @@
             "BODY": "اطلاعات اولیه در مورد پورتال"
           },
           "CUSTOMIZATION": {
-            "TITLE": "سفارشی سازی مرکز راهنما",
+            "TITLE": "سفارشی‌سازی مرکز راهنما",
             "BODY": "سفارشی کردن پورتال"
           },
           "FINISH": {
@@ -223,13 +223,13 @@
             "CREATE_BASIC_SETTING_BUTTON": "ایجاد تنظیمات اولیه پورتال"
           },
           "CUSTOMIZATION_PAGE": {
-            "HEADER": "سفارشی سازی پورتال",
-            "TITLE": "سفارشی سازی مرکز راهنما",
+            "HEADER": "سفارشی‌سازی پورتال",
+            "TITLE": "سفارشی‌سازی مرکز راهنما",
             "UPDATE_PORTAL_BUTTON": "به‌روزرسانی تنظیمات پورتال"
           },
           "FINISH_PAGE": {
             "TITLE": "هوراا !🎉 شما آماده‌اید!",
-            "MESSAGE": "اکنون می توانید این پورتال ایجاد شده را در صفحه همه پورتال های خود مشاهده کنید.",
+            "MESSAGE": "اکنون می توانید این پورتال ایجاد شده را در صفحه همه پورتال‌های خود مشاهده کنید.",
             "FINISH": "برو به صفحه همه پورتال‌ها"
           }
         },
@@ -319,8 +319,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "در حال بارگیری مقالات...",
       "404": "هیچ مقاله ای با جستجوی شما مطابقت ندارد 🔍",
+      "LOADING_MESSAGE": "در حال بارگیری مقالات...",
       "NO_ARTICLES": "هیچ مقاله ای موجود نیست",
       "HEADERS": {
         "TITLE": "عنوان",
@@ -395,10 +395,10 @@
           "ERROR": "نام الزامی است"
         },
         "SLUG": {
-          "LABEL": "Slug",
-          "PLACEHOLDER": "Slug دسته برای آدرس ها",
-          "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
-          "ERROR": "Slug مورد نیاز است"
+          "LABEL": "نامک (slug)",
+          "PLACEHOLDER": "نامک دسته برای آدرس‌ها",
+          "HELP_TEXT": "app.gapify.ai/hc/my-portal/en-US/categories/نام-مستعار",
+          "ERROR": "نامک مورد نیاز است"
         },
         "DESCRIPTION": {
           "LABEL": "توضیحات",
@@ -422,14 +422,14 @@
         "NAME": {
           "LABEL": "نام",
           "PLACEHOLDER": "نام دسته‌بندی",
-          "HELP_TEXT": "از نام و نماد دسته بندی در پرتال عمومی برای دسته بندی مقالات استفاده می شود.",
+          "HELP_TEXT": "از نام و نماد دسته‌بندی در پرتال عمومی برای دسته بندی مقالات استفاده می شود.",
           "ERROR": "نام الزامی است"
         },
         "SLUG": {
-          "LABEL": "Slug",
-          "PLACEHOLDER": "Slug دسته برای آدرس ها",
-          "HELP_TEXT": "app.chatwoot.com/hc/my-portal/en-US/categories/my-slug",
-          "ERROR": "Slug مورد نیاز است"
+          "LABEL": "نامک (slug)",
+          "PLACEHOLDER": "نامک (slug) دسته برای آدرس ها",
+          "HELP_TEXT": "app.gapify.ai/hc/my-portal/en-US/categories/نام-مستعار",
+          "ERROR": "نامک مورد نیاز است"
         },
         "DESCRIPTION": {
           "LABEL": "توضیحات",
@@ -469,8 +469,8 @@
     },
     "UPGRADE_PAGE": {
       "TITLE": "مرکز راهنما",
-      "DESCRIPTION": "پورتال های سلف سرویس کاربر پسند ایجاد کنید. به کاربران خود کمک کنید تا به مقالات دسترسی پیدا کنند و پشتیبانی دریافت کنند.",
-      "SELF_HOSTED_DESCRIPTION": "پورتال های سلف سرویس کاربر پسند ایجاد کنید. به کاربران خود کمک کنید تا به مقالات دسترسی پیدا کنند و پشتیبانی دریافت کنند. لطفا با ادمین برای فعال سازی این قابلیت تماس بگیرید.",
+      "DESCRIPTION": "پورتال‌های سلف سرویس کاربر پسند ایجاد کنید. به کاربران خود کمک کنید تا به مقالات دسترسی پیدا کنند و پشتیبانی دریافت کنند.",
+      "SELF_HOSTED_DESCRIPTION": "پورتال‌های سلف سرویس کاربر پسند ایجاد کنید. به کاربران خود کمک کنید تا به مقالات دسترسی پیدا کنند و پشتیبانی دریافت کنند. لطفا با ادمین برای فعال سازی این قابلیت تماس بگیرید.",
       "BUTTON": {
         "LEARN_MORE": "بیشتر بدانید",
         "UPGRADE": "ارتقا"
@@ -482,11 +482,11 @@
         },
         "LOCALES": {
           "TITLE": "پشتیبانی کامل از چند زبانه",
-          "DESCRIPTION": "پورتال را به زبان خود بومی سازی کنید. ما از همه زبان‌ها پشتیبانی می‌کنیم و اجازه ترجمه برای هر مقاله را می‌دهیم."
+          "DESCRIPTION": "پورتال را به زبان خود بومی‌سازی کنید. ما از همه زبان‌ها پشتیبانی می‌کنیم و اجازه ترجمه برای هر مقاله را می‌دهیم."
         },
         "SEO": {
           "TITLE": "طراحی مناسب SEO",
-          "DESCRIPTION": "متا تگ های خود را سفارشی کنید تا بهتر در موتورهای جستجو دیده شوید."
+          "DESCRIPTION": "متا تگ‌های خود را سفارشی کنید تا بهتر در موتورهای جستجو دیده شوید."
         },
         "API": {
           "TITLE": "پشتیبانی کامل از API",
@@ -494,68 +494,68 @@
         }
       }
     },
-    "LOADING": "Loading...",
+    "LOADING": "در حال بارگذاری...",
     "ARTICLES_PAGE": {
       "ARTICLE_CARD": {
         "CARD": {
-          "VIEWS": "{count} view | {count} views",
+          "VIEWS": "{count} بازدید | {count} بازدیدها",
           "DROPDOWN_MENU": {
-            "PUBLISH": "انتشار",
+            "PUBLISH": "منتشر کردن",
             "DRAFT": "پیش‌نویس",
-            "ARCHIVE": "Archive",
+            "ARCHIVE": "آرشیو",
             "DELETE": "حذف"
           },
           "STATUS": {
             "DRAFT": "پیش‌نویس",
-            "PUBLISHED": "منتشر شد",
-            "ARCHIVED": "بایگانی شد"
+            "PUBLISHED": "منتشر شده",
+            "ARCHIVED": "آرشیو شده"
           },
           "CATEGORY": {
-            "UNCATEGORISED": "Uncategorised"
+            "UNCATEGORISED": "بدون دسته‌بندی"
           }
         }
       },
       "ARTICLES_HEADER": {
         "TABS": {
-          "ALL": "All articles",
-          "MINE": "من",
+          "ALL": "تمام مقالات",
+          "MINE": "مقالات من",
           "DRAFT": "پیش‌نویس",
-          "PUBLISHED": "منتشر شد",
-          "ARCHIVED": "بایگانی شد"
+          "PUBLISHED": "منتشر شده",
+          "ARCHIVED": "آرشیو شده"
         },
         "CATEGORY": {
-          "ALL": "All categories"
+          "ALL": "تمام دسته‌بندی‌ها"
         },
         "LOCALE": {
-          "ALL": "All locales"
+          "ALL": "تمام زبان‌ها"
         },
-        "NEW_ARTICLE": "New article"
+        "NEW_ARTICLE": "مقاله جدید"
       },
       "EMPTY_STATE": {
         "ALL": {
-          "TITLE": "Write an article",
-          "SUBTITLE": "Write a rich article, let’s get started!",
-          "BUTTON_LABEL": "New article"
+          "TITLE": "نوشتن مقاله",
+          "SUBTITLE": "یک مقاله جامع بنویسید، بیایید شروع کنیم!",
+          "BUTTON_LABEL": "مقاله جدید"
         },
         "MINE": {
-          "TITLE": "You haven't written any articles here",
-          "SUBTITLE": "All articles written by you show up here for quick access."
+          "TITLE": "شما هیچ مقاله‌ای ننوشته‌اید",
+          "SUBTITLE": "تمام مقالات نوشته شده توسط شما در اینجا برای دسترسی سریع نمایش داده می‌شود."
         },
         "DRAFT": {
-          "TITLE": "There are no articles in drafts",
-          "SUBTITLE": "Draft articles will appear here"
+          "TITLE": "مقاله‌ای در پیش‌نویس‌ها وجود ندارد",
+          "SUBTITLE": "مقالات پیش‌نویس در اینجا ظاهر خواهند شد"
         },
         "PUBLISHED": {
-          "TITLE": "There are no published articles",
-          "SUBTITLE": "Published articles will appear here"
+          "TITLE": "مقاله‌ای منتشر نشده است",
+          "SUBTITLE": "مقالات منتشر شده در اینجا نمایش داده خواهند شد"
         },
         "ARCHIVED": {
-          "TITLE": "There are no articles in the archive",
-          "SUBTITLE": "Archived articles don't show up on the portal, you can use it to mark deprecated or outdated pages"
+          "TITLE": "مقاله‌ای در آرشیو وجود ندارد",
+          "SUBTITLE": "مقالات آرشیو شده در پورتال نمایش داده نمی‌شوند، شما می‌توانید از آن‌ها برای علامت‌گذاری صفحات منسوخ یا قدیمی استفاده کنید"
         },
         "CATEGORY": {
-          "TITLE": "There are no articles in this category",
-          "SUBTITLE": "Articles in this category will appear here"
+          "TITLE": "مقاله‌ای در این دسته‌بندی وجود ندارد",
+          "SUBTITLE": "مقالات این دسته‌بندی در اینجا ظاهر خواهند شد"
         }
       }
     },
@@ -563,44 +563,44 @@
       "CATEGORY_HEADER": {
         "NEW_CATEGORY": "دسته‌بندی جدید",
         "EDIT_CATEGORY": "ویرایش دسته‌بندی",
-        "CATEGORIES_COUNT": "{n} category | {n} categories",
+        "CATEGORIES_COUNT": "{n} دسته‌بندی | {n} دسته‌بندی‌ها",
         "BREADCRUMB": {
-          "CATEGORY_LOCALE": "Categories ({localeCode})",
-          "ACTIVE_CATEGORY": "{categoryName} ({categoryCount} articles) | {categoryName} ({categoryCount} article)"
+          "CATEGORY_LOCALE": "دسته‌بندی‌ها ({localeCode})",
+          "ACTIVE_CATEGORY": "{categoryName} ({categoryCount} مقاله) | {categoryName} ({categoryCount} مقالات)"
         }
       },
       "CATEGORY_EMPTY_STATE": {
-        "TITLE": "هیچ دسته‌بندی‌ای یافت نشد",
-        "SUBTITLE": "Categories will appear here. You can add a category by clicking the 'New Category' button."
+        "TITLE": "دسته‌بندی‌ای پیدا نشد",
+        "SUBTITLE": "دسته‌بندی‌ها در اینجا ظاهر خواهند شد. شما می‌توانید با کلیک بر روی دکمه 'دسته‌بندی جدید' یک دسته‌بندی اضافه کنید."
       },
       "CATEGORY_CARD": {
-        "ARTICLES_COUNT": "{count} article | {count} articles"
+        "ARTICLES_COUNT": "{count} مقاله | {count} مقالات"
       },
       "CATEGORY_DIALOG": {
         "CREATE": {
           "API": {
             "SUCCESS_MESSAGE": "دسته‌بندی با موفقیت ایجاد شد",
-            "ERROR_MESSAGE": "امکان ایجاد دسته‌بندی وجود ندارد"
+            "ERROR_MESSAGE": "قادر به ایجاد دسته‌بندی نیستیم"
           }
         },
         "EDIT": {
           "API": {
-            "SUCCESS_MESSAGE": "دسته‌بندی با موفقیت به‌روز شد",
-            "ERROR_MESSAGE": "دسته‌بندی به‌روزرسانی نمی‌شود"
+            "SUCCESS_MESSAGE": "دسته‌بندی با موفقیت بروزرسانی شد",
+            "ERROR_MESSAGE": "قادر به بروزرسانی دسته‌بندی نیستیم"
           }
         },
         "DELETE": {
           "API": {
             "SUCCESS_MESSAGE": "دسته‌بندی با موفقیت حذف شد",
-            "ERROR_MESSAGE": "حذف دسته‌بندی ممکن نیست"
+            "ERROR_MESSAGE": "قادر به حذف دسته‌بندی نیستیم"
           }
         },
         "HEADER": {
           "CREATE": "ایجاد دسته‌بندی",
           "EDIT": "ویرایش دسته‌بندی",
-          "DESCRIPTION": "ویرایش یک دسته‌بندی، اون را در پورتال عمومی به‌روز می‌کند.",
+          "DESCRIPTION": "ویرایش یک دسته‌بندی باعث بروزرسانی آن در پورتال عمومی خواهد شد.",
           "PORTAL": "پورتال",
-          "LOCALE": "محلی"
+          "LOCALE": "زبان"
         },
         "FORM": {
           "NAME": {
@@ -609,112 +609,111 @@
             "ERROR": "نام الزامی است"
           },
           "SLUG": {
-            "LABEL": "Slug",
-            "PLACEHOLDER": "Slug دسته برای آدرس ها",
-            "ERROR": "Slug مورد نیاز است",
-            "HELP_TEXT": "app.chatwoot.com/hc/{portalSlug}/{localeCode}/categories/{categorySlug}"
+            "LABEL": "شناسه URL",
+            "PLACEHOLDER": "شناسه URL دسته‌بندی",
+            "ERROR": "شناسه URL الزامی است",
+            "HELP_TEXT": "app.gapify.ai/hc/{portalSlug}/{localeCode}/categories/{categorySlug}"
           },
           "DESCRIPTION": {
             "LABEL": "توضیحات",
-            "PLACEHOLDER": "یک توضیح کوتاه در مورد دسته ارائه دهید.",
+            "PLACEHOLDER": "یک توضیح کوتاه درباره دسته‌بندی بدهید.",
             "ERROR": "توضیحات الزامی است"
           }
         },
         "BUTTONS": {
-          "CREATE": "ايجاد كردن",
-          "EDIT": "اعمال شود",
-          "CANCEL": "انصراف"
+          "CREATE": "ایجاد",
+          "EDIT": "بروزرسانی",
+          "CANCEL": "لغو"
         }
       }
     },
     "LOCALES_PAGE": {
-      "LOCALES_COUNT": "No locales available | {n} locale | {n} locales",
-      "NEW_LOCALE_BUTTON_TEXT": "New locale",
+      "LOCALES_COUNT": "هیچ زبان در دسترس نیست | {n} زبان | {n} زبان‌ها",
+      "NEW_LOCALE_BUTTON_TEXT": "زبان جدید",
       "LOCALE_CARD": {
-        "ARTICLES_COUNT": "{count} article | {count} articles",
-        "CATEGORIES_COUNT": "{count} category | {count} categories",
+        "ARTICLES_COUNT": "{count} مقاله | {count} مقالات",
+        "CATEGORIES_COUNT": "{count} دسته‌بندی | {count} دسته‌بندی‌ها",
         "DEFAULT": "پیش‌فرض",
         "DROPDOWN_MENU": {
-          "MAKE_DEFAULT": "Make default",
+          "MAKE_DEFAULT": "انتخاب به عنوان پیش‌فرض",
           "DELETE": "حذف"
         }
       },
       "ADD_LOCALE_DIALOG": {
-        "TITLE": "یک محل جدید اضافه کنید",
-        "DESCRIPTION": "Select the language in which this article will be written. This will be added to your list of translations, and you can add more later.",
+        "TITLE": "افزودن زبان جدید",
+        "DESCRIPTION": "زبان مقاله‌ای که در اینجا نوشته خواهد شد را انتخاب کنید. این زبان به فهرست ترجمه‌هایتان افزوده می‌شود و می‌توانید زبان‌های بیشتری اضافه کنید.",
         "COMBOBOX": {
-          "PLACEHOLDER": "انتخاب زبان..."
+          "PLACEHOLDER": "زبان را انتخاب کنید..."
         },
         "API": {
-          "SUCCESS_MESSAGE": "زبان محلی با موفقیت اضافه شد",
-          "ERROR_MESSAGE": "امکان افزودن زبان محلی وجود ندارد. دوباره امتحان کنید."
+          "SUCCESS_MESSAGE": "زبان با موفقیت اضافه شد",
+          "ERROR_MESSAGE": "قادر به افزودن زبان نیستیم. لطفاً دوباره تلاش کنید."
         }
       }
     },
     "EDIT_ARTICLE_PAGE": {
       "HEADER": {
         "STATUS": {
-          "SAVING": "در حال ذخیره...",
+          "SAVING": "در حال ذخیره‌سازی...",
           "SAVED": "ذخیره شد"
         },
         "PREVIEW": "پیش‌نمایش",
-        "PUBLISH": "انتشار",
+        "PUBLISH": "منتشر کردن",
         "DRAFT": "پیش‌نویس",
-        "ARCHIVE": "Archive",
-        "BACK_TO_ARTICLES": "Back to articles"
+        "ARCHIVE": "آرشیو",
+        "BACK_TO_ARTICLES": "بازگشت به مقالات"
       },
       "EDIT_ARTICLE": {
-        "MORE_PROPERTIES": "More properties",
-        "UNCATEGORIZED": "دسته بندی نشده",
-        "EDITOR_PLACEHOLDER": "Write something..."
+        "MORE_PROPERTIES": "ویژگی‌های بیشتر",
+        "UNCATEGORIZED": "بدون دسته‌بندی",
+        "EDITOR_PLACEHOLDER": "چیزی بنویسید..."
       },
       "ARTICLE_PROPERTIES": {
-        "ARTICLE_PROPERTIES": "Article properties",
+        "ARTICLE_PROPERTIES": "ویژگی‌های مقاله",
         "META_DESCRIPTION": "توضیحات متا",
-        "META_DESCRIPTION_PLACEHOLDER": "Add meta description",
+        "META_DESCRIPTION_PLACEHOLDER": "توضیحات متا را اضافه کنید",
         "META_TITLE": "عنوان متا",
-        "META_TITLE_PLACEHOLDER": "Add meta title",
+        "META_TITLE_PLACEHOLDER": "عنوان متا را اضافه کنید",
         "META_TAGS": "برچسب‌های متا",
-        "META_TAGS_PLACEHOLDER": "Add meta tags"
+        "META_TAGS_PLACEHOLDER": "برچسب‌های متا را اضافه کنید"
       },
       "API": {
         "ERROR": "خطا در هنگام ذخیره مقاله"
       }
     },
     "PORTAL_SWITCHER": {
-      "NEW_PORTAL": "New portal",
-      "PORTALS": "پورتال ها",
-      "CREATE_PORTAL": "Create and manage multiple portals",
+      "NEW_PORTAL": "پورتال جدید",
+      "PORTALS": "پورتال‌ها",
+      "CREATE_PORTAL": "ایجاد و مدیریت پورتال‌های متعدد",
       "ARTICLES": "مقالات",
       "DOMAIN": "دامنه",
       "PORTAL_NAME": "نام پورتال"
     },
     "CREATE_PORTAL_DIALOG": {
-      "TITLE": "Create new portal",
-      "DESCRIPTION": "Give your portal a name and create a user-friendly URL slug. You can modify both later in the settings.",
-      "CONFIRM_BUTTON_LABEL": "ايجاد كردن",
+      "TITLE": "ایجاد پورتال جدید",
+      "DESCRIPTION": "یک نام برای پورتال خود انتخاب کنید و شناسه URL کاربرپسند بسازید. شما می‌توانید هر دو را بعداً در تنظیمات تغییر دهید.",
+      "CONFIRM_BUTTON_LABEL": "ایجاد",
       "NAME": {
         "LABEL": "نام",
-        "PLACEHOLDER": "User Guide | Chatwoot",
-        "MESSAGE": "Choose an name for your portal.",
+        "PLACEHOLDER": "راهنمای کاربر | گپیفای",
+        "MESSAGE": "یک نام برای پورتال خود انتخاب کنید.",
         "ERROR": "نام الزامی است"
       },
       "SLUG": {
-        "LABEL": "Slug",
-        "PLACEHOLDER": "user-guide",
-        "ERROR": "Slug مورد نیاز است",
-        "FORMAT_ERROR": "Please enter a valid slug, for eg: user-guide"
+        "LABEL": "شناسه URL",
+        "PLACEHOLDER": "راهنمای کاربر",
+        "ERROR": "شناسه URL الزامی است"
       }
     },
     "PORTAL_SETTINGS": {
       "FORM": {
         "AVATAR": {
-          "LABEL": "آرم",
-          "IMAGE_UPLOAD_ERROR": "تصویر ارسال نشد! دوباره امتحان کنید",
-          "IMAGE_UPLOAD_SUCCESS": "Image added successfully. Please click on save changes to save the logo",
-          "IMAGE_DELETE_SUCCESS": "تصویر با موفقیت حذف شد",
-          "IMAGE_DELETE_ERROR": "Unable to delete logo",
-          "IMAGE_UPLOAD_SIZE_ERROR": "اندازه تصویر باید کمتر از {size} مگابایت باشد"
+          "LABEL": "لوگو",
+          "IMAGE_UPLOAD_ERROR": "آپلود تصویر امکان‌پذیر نیست! لطفاً دوباره تلاش کنید",
+          "IMAGE_UPLOAD_SUCCESS": "تصویر با موفقیت اضافه شد. لطفاً برای ذخیره لوگو روی ذخیره تغییرات کلیک کنید",
+          "IMAGE_DELETE_SUCCESS": "لوگو با موفقیت حذف شد",
+          "IMAGE_DELETE_ERROR": "قادر به حذف لوگو نیستیم",
+          "IMAGE_UPLOAD_SIZE_ERROR": "حجم تصویر باید کم‌تر از {size}MB باشد"
         },
         "NAME": {
           "LABEL": "نام",
@@ -722,60 +721,60 @@
           "ERROR": "نام الزامی است"
         },
         "HEADER_TEXT": {
-          "LABEL": "Header text",
+          "LABEL": "متن سرصفحه",
           "PLACEHOLDER": "متن سرصفحه پورتال"
         },
         "PAGE_TITLE": {
-          "LABEL": "Page title",
+          "LABEL": "عنوان صفحه",
           "PLACEHOLDER": "عنوان صفحه پورتال"
         },
         "HOME_PAGE_LINK": {
-          "LABEL": "Home page link",
-          "PLACEHOLDER": "پیوند صفحه اصلی پورتال",
-          "ERROR": "Enter a valid URL. The Home page link must start with 'http://' or 'https://'."
+          "LABEL": "لینک صفحه اصلی",
+          "PLACEHOLDER": "لینک صفحه اصلی پورتال",
+          "ERROR": "URL نامعتبر است. لینک صفحه اصلی باید با 'http://' یا 'https://' شروع شود."
         },
         "SLUG": {
-          "LABEL": "Slug",
-          "PLACEHOLDER": "Portal slug"
+          "LABEL": "شناسه URL",
+          "PLACEHOLDER": "شناسه URL پورتال"
         },
         "LIVE_CHAT_WIDGET": {
-          "LABEL": "Live chat widget",
-          "PLACEHOLDER": "Select live chat widget",
-          "HELP_TEXT": "Select a live chat widget that will appear on your help center",
+          "LABEL": "ویجت چت زنده",
+          "PLACEHOLDER": "ویجت چت زنده را انتخاب کنید",
+          "HELP_TEXT": "ویجت چت زنده‌ای را انتخاب کنید که در مرکز کمک شما ظاهر شود",
           "NONE_OPTION": "No widget"
         },
         "BRAND_COLOR": {
-          "LABEL": "Brand color"
+          "LABEL": "رنگ برند"
         },
-        "SAVE_CHANGES": "Save changes"
+        "SAVE_CHANGES": "ذخیره تغییرات"
       },
       "CONFIGURATION_FORM": {
         "CUSTOM_DOMAIN": {
           "HEADER": "دامنه سفارشی",
           "LABEL": "دامنه سفارشی:",
-          "DESCRIPTION": "You can host your portal on a custom domain. For instance, if your website is yourdomain.com and you want your portal available at docs.yourdomain.com, simply enter that in this field.",
+          "DESCRIPTION": "شما می‌توانید پورتال خود را در یک دامنه سفارشی میزبانی کنید. به عنوان مثال، اگر وب‌سایت شما yourdomain.com است و می‌خواهید پورتال شما در docs.yourdomain.com در دسترس باشد، کافی است آن را در اینجا وارد کنید.",
           "STATUS_DESCRIPTION": "Your custom portal will start working as soon as it is verified.",
           "PLACEHOLDER": "دامنه سفارشی پورتال",
-          "EDIT_BUTTON": "ویرایش",
-          "ADD_BUTTON": "Add custom domain",
+          "EDIT_BUTTON": "ویرایش دامنه سفارشی",
+          "ADD_BUTTON": "اضافه کردن دامنه سفارشی",
           "STATUS": {
             "LIVE": "زنده",
             "PENDING": "Awaiting verification",
             "ERROR": "Verification failed"
           },
           "DIALOG": {
-            "ADD_HEADER": "Add custom domain",
-            "EDIT_HEADER": "Edit custom domain",
-            "ADD_CONFIRM_BUTTON_LABEL": "Add domain",
-            "EDIT_CONFIRM_BUTTON_LABEL": "Update domain",
+            "ADD_HEADER": "اضافه کردن دامنه سفارشی",
+            "EDIT_HEADER": "ویرایش دامنه سفارشی",
+            "ADD_CONFIRM_BUTTON_LABEL": "افزودن دامنه",
+            "EDIT_CONFIRM_BUTTON_LABEL": "بروزرسانی دامنه",
             "LABEL": "دامنه سفارشی",
             "PLACEHOLDER": "دامنه سفارشی پورتال",
-            "ERROR": "Custom domain is required",
+            "ERROR": "دامنه سفارشی الزامی است",
             "FORMAT_ERROR": "Please enter a valid domain URL e.g. docs.yourdomain.com"
           },
           "DNS_CONFIGURATION_DIALOG": {
-            "HEADER": "DNS configuration",
-            "DESCRIPTION": "Log in to the account you have with your DNS provider, and add a CNAME record for subdomain pointing to chatwoot.help",
+            "HEADER": "پیکربندی DNS",
+            "DESCRIPTION": "وارد حساب کاربری خود در ارائه‌دهنده DNS شوید و یک رکورد CNAME برای زیر دامنه به gapify.help اضافه کنید",
             "COPY": "Successfully copied CNAME",
             "SEND_INSTRUCTIONS": {
               "HEADER": "Send instructions",
@@ -787,25 +786,25 @@
           }
         },
         "DELETE_PORTAL": {
-          "BUTTON": "Delete {portalName}",
+          "BUTTON": "حذف {portalName}",
           "HEADER": "حذف پورتال",
-          "DESCRIPTION": "Permanently delete this portal. This action is irreversible",
+          "DESCRIPTION": "این پورتال به طور دائمی حذف خواهد شد. این عمل غیرقابل برگشت است",
           "DIALOG": {
-            "HEADER": "Sure you want to delete {portalName}?",
-            "DESCRIPTION": "This is a permanent action that cannot be reversed.",
+            "HEADER": "آیا مطمئنید که می‌خواهید {portalName} را حذف کنید؟",
+            "DESCRIPTION": "این یک اقدام دائمی است که قابل بازگشت نیست.",
             "CONFIRM_BUTTON_LABEL": "حذف"
           }
         },
-        "EDIT_CONFIGURATION": "Edit configuration"
+        "EDIT_CONFIGURATION": "ویرایش پیکربندی"
       },
       "API": {
         "CREATE_PORTAL": {
           "SUCCESS_MESSAGE": "پورتال با موفقیت ایجاد شد",
-          "ERROR_MESSAGE": "Unable to create portal"
+          "ERROR_MESSAGE": "قادر به ایجاد پورتال نیستیم"
         },
         "UPDATE_PORTAL": {
-          "SUCCESS_MESSAGE": "پورتال با موفقیت به‌روز شد",
-          "ERROR_MESSAGE": "Unable to update portal"
+          "SUCCESS_MESSAGE": "پورتال با موفقیت بروزرسانی شد",
+          "ERROR_MESSAGE": "قادر به بروزرسانی پورتال نیستیم"
         }
       }
     },

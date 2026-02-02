@@ -1,54 +1,54 @@
 {
   "PAGINATION_FOOTER": {
-    "SHOWING": "Showing {startItem} - {endItem} of {totalItems} items",
-    "CURRENT_PAGE_INFO": "{currentPage} of {totalPages} pages"
+    "SHOWING": "نمایش {startItem} - {endItem} از {totalItems} آیتم",
+    "CURRENT_PAGE_INFO": "{currentPage} از {totalPages} صفحه"
   },
   "COMBOBOX": {
-    "PLACEHOLDER": "Select an option...",
-    "EMPTY_SEARCH_RESULTS": "No items found for the search term `{searchTerm}`",
-    "EMPTY_STATE": "نتیجه‌ای یافت نشد.",
-    "SEARCH_PLACEHOLDER": "Search...",
-    "MORE": "+{count} بیشتر"
+    "PLACEHOLDER": "یک گزینه را انتخاب کنید...",
+    "EMPTY_SEARCH_RESULTS": "هیچ آیتمی برای عبارت جستجو `{searchTerm}` پیدا نشد",
+    "EMPTY_STATE": "نتیجه ای یافت نشد.",
+    "SEARCH_PLACEHOLDER": "جستجو...",
+    "MORE": "+{count} مورد بیشتر"
   },
   "DROPDOWN_MENU": {
-    "SEARCH_PLACEHOLDER": "Search...",
+    "SEARCH_PLACEHOLDER": "جستجو...",
     "EMPTY_STATE": "نتیجه‌ای یافت نشد.",
     "SEARCHING": "در حال جستجو..."
   },
   "DIALOG": {
     "BUTTONS": {
       "CANCEL": "انصراف",
-      "CONFIRM": "تایید"
+      "CONFIRM": "تأیید"
     }
   },
   "PHONE_INPUT": {
     "SEARCH_PLACEHOLDER": "جستجوی کشور",
-    "ERROR": "Phone number should be empty or in E.164 format",
-    "DIAL_CODE_ERROR": "لطفاً یک کد شماره گیری را از لیست انتخاب کنید"
+    "ERROR": "شماره تلفن باید خالی یا به فرمت E.164 باشد",
+    "DIAL_CODE_ERROR": "لطفاً یک کد تماس از لیست انتخاب کنید"
   },
   "THUMBNAIL": {
     "AUTHOR": {
-      "NOT_AVAILABLE": "نویسنده در دسترس نیست"
+      "NOT_AVAILABLE": "نویسنده موجود نیست"
     }
   },
   "BREADCRUMB": {
-    "ARIA_LABEL": "Breadcrumb"
+    "ARIA_LABEL": "مسیر"
   },
   "SWITCH": {
-    "TOGGLE": "Toggle switch"
+    "TOGGLE": "سوئیچ را تغییر دهید"
   },
   "LABEL": {
-    "TAG_BUTTON": "tag"
+    "TAG_BUTTON": "برچسب"
   },
   "FEATURE_SPOTLIGHT": {
     "LEARN_MORE": "بیشتر بدانید",
-    "WATCH_VIDEO": "Watch video"
+    "WATCH_VIDEO": "ویدیو را مشاهده کنید"
   },
   "DURATION_INPUT": {
-    "MINUTES": "Minutes",
-    "HOURS": "Hours",
-    "DAYS": "Days",
-    "PLACEHOLDER": "Enter duration"
+    "MINUTES": "دقیقه",
+    "HOURS": "ساعت",
+    "DAYS": "روز",
+    "PLACEHOLDER": "مدت زمان را وارد کنید"
   },
   "CHANNEL_SELECTOR": {
     "COMING_SOON": "Coming Soon!"

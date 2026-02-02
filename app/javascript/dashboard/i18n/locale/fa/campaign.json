@@ -1,12 +1,12 @@
 {
   "CAMPAIGN": {
     "LIVE_CHAT": {
-      "HEADER_TITLE": "Live chat campaigns",
-      "NEW_CAMPAIGN": "Create campaign",
+      "HEADER_TITLE": "کمپین‌‌های لایوچت",
+      "NEW_CAMPAIGN": "ایجاد کمپین",
       "CARD": {
         "STATUS": {
-          "ENABLED": "فعال شد",
-          "DISABLED": "غیرفعال شد"
+          "ENABLED": "فعال",
+          "DISABLED": "غیرفعال"
         },
         "CAMPAIGN_DETAILS": {
           "SENT_BY": "ارسال شده توسط",
@@ -16,17 +16,17 @@
         }
       },
       "EMPTY_STATE": {
-        "TITLE": "No live chat campaigns are available",
-        "SUBTITLE": "Connect with your customers using proactive messages.  Click 'Create campaign' to get started."
+        "TITLE": "هیچ کمپین لایوچتی در دسترس نیست",
+        "SUBTITLE": "با استفاده از پیام‌های پیشگیرانه با مشتریان خود ارتباط برقرار کنید. روی 'ایجاد کمپین' کلیک کنید تا شروع کنید."
       },
       "CREATE": {
-        "TITLE": "Create a live chat campaign",
+        "TITLE": "ایجاد یک کمپین لایوچت",
         "CANCEL_BUTTON_TEXT": "انصراف",
-        "CREATE_BUTTON_TEXT": "ايجاد كردن",
+        "CREATE_BUTTON_TEXT": "ایجاد",
         "FORM": {
           "TITLE": {
             "LABEL": "عنوان",
-            "PLACEHOLDER": "لطفا عنوان کمپین را وارد کنید",
+            "PLACEHOLDER": "لطفاً عنوان کمپین را وارد کنید",
             "ERROR": "عنوان الزامی است"
           },
           "MESSAGE": {
@@ -36,74 +36,74 @@
           },
           "INBOX": {
             "LABEL": "انتخاب صندوق ورودی",
-            "PLACEHOLDER": "انتخاب صندوق ورودی",
-            "ERROR": "صندوق ورودی مورد نیاز است"
+            "PLACEHOLDER": "صندوق ورودی را انتخاب کنید",
+            "ERROR": "انتخاب صندوق ورودی الزامی است"
           },
           "SENT_BY": {
             "LABEL": "ارسال شده توسط",
-            "PLACEHOLDER": "Please select sender",
-            "ERROR": "ارسال کننده الزامی است"
+            "PLACEHOLDER": "لطفاً فرستنده را انتخاب کنید",
+            "ERROR": "فرستنده الزامی است"
           },
           "END_POINT": {
             "LABEL": "URL",
             "PLACEHOLDER": "لطفاً URL را وارد کنید",
-            "ERROR": "لطفا آدرس URL صحیحی وارد کنید"
+            "ERROR": "لطفاً URL معتبر وارد کنید"
           },
           "TIME_ON_PAGE": {
-            "LABEL": "زمان در صفحه (ثانیه ها)",
+            "LABEL": "زمان روی صفحه (ثانیه)",
             "PLACEHOLDER": "لطفاً زمان را وارد کنید",
-            "ERROR": "زمان حضور در صفحه لازم است"
+            "ERROR": "زمان روی صفحه الزامی است"
           },
           "OTHER_PREFERENCES": {
-            "TITLE": "Other preferences",
-            "ENABLED": "فعال کردن کمپین",
-            "TRIGGER_ONLY_BUSINESS_HOURS": "تنها در طول ساعات کاری"
+            "TITLE": "تنظیمات دیگر",
+            "ENABLED": "فعال‌کردن کمپین",
+            "TRIGGER_ONLY_BUSINESS_HOURS": "فقط در ساعات کاری فعال شود"
           },
           "BUTTONS": {
-            "CREATE": "ايجاد كردن",
+            "CREATE": "ایجاد",
             "CANCEL": "انصراف"
           },
           "API": {
-            "SUCCESS_MESSAGE": "Live chat campaign created successfully",
-            "ERROR_MESSAGE": "یک خطای وجود دارد. لطفا دوباره تلاش کنید."
+            "SUCCESS_MESSAGE": "کمپین لایوچت با موفقیت ایجاد شد",
+            "ERROR_MESSAGE": "خطا رخ داده است. لطفاً دوباره تلاش کنید."
           }
         }
       },
       "EDIT": {
-        "TITLE": "Edit live chat campaign",
+        "TITLE": "ویرایش کمپین لایوچت",
         "FORM": {
           "API": {
-            "SUCCESS_MESSAGE": "Live chat campaign updated successfully",
-            "ERROR_MESSAGE": "یک خطای وجود دارد. لطفا دوباره تلاش کنید."
+            "SUCCESS_MESSAGE": "کمپین لایوچت با موفقیت بروزرسانی شد",
+            "ERROR_MESSAGE": "خطا رخ داده است. لطفاً دوباره تلاش کنید."
           }
         }
       }
     },
     "SMS": {
-      "HEADER_TITLE": "SMS campaigns",
-      "NEW_CAMPAIGN": "Create campaign",
+      "HEADER_TITLE": "کمپین های پیامک",
+      "NEW_CAMPAIGN": "ایجاد کمپین",
       "EMPTY_STATE": {
-        "TITLE": "No SMS campaigns are available",
-        "SUBTITLE": "Launch an SMS campaign to reach your customers directly. Send offers or make announcements with ease. Click 'Create campaign' to get started."
+        "TITLE": "هیچ کمپین پیامکی در دسترس نیست",
+        "SUBTITLE": "یک کمپین پیامکی راه اندازی کنید تا مستقیماً با مشتریان خود ارتباط برقرار کنید. پیشنهادات ارسال کنید یا اعلامیه ها را به راحتی ارسال کنید. روی 'ایجاد کمپین' کلیک کنید تا شروع کنید."
       },
       "CARD": {
         "STATUS": {
-          "COMPLETED": "تکمیل شد",
-          "SCHEDULED": "Scheduled"
+          "COMPLETED": "اتمام یافته",
+          "SCHEDULED": "برنامه ریزی شده"
         },
         "CAMPAIGN_DETAILS": {
-          "SENT_FROM": "Sent from",
-          "ON": "on"
+          "SENT_FROM": "ارسال شده از",
+          "ON": "در"
         }
       },
       "CREATE": {
-        "TITLE": "Create SMS campaign",
+        "TITLE": "ایجاد کمپین پیامک",
         "CANCEL_BUTTON_TEXT": "انصراف",
-        "CREATE_BUTTON_TEXT": "ايجاد كردن",
+        "CREATE_BUTTON_TEXT": "ایجاد",
         "FORM": {
           "TITLE": {
             "LABEL": "عنوان",
-            "PLACEHOLDER": "لطفا عنوان کمپین را وارد کنید",
+            "PLACEHOLDER": "لطفاً عنوان کمپین را وارد کنید",
             "ERROR": "عنوان الزامی است"
           },
           "MESSAGE": {
@@ -113,13 +113,13 @@
           },
           "INBOX": {
             "LABEL": "انتخاب صندوق ورودی",
-            "PLACEHOLDER": "انتخاب صندوق ورودی",
-            "ERROR": "صندوق ورودی مورد نیاز است"
+            "PLACEHOLDER": "صندوق ورودی را انتخاب کنید",
+            "ERROR": "انتخاب صندوق ورودی الزامی است"
           },
           "AUDIENCE": {
-            "LABEL": "شنودگان",
+            "LABEL": "مخاطب",
             "PLACEHOLDER": "برچسب های مشتری را انتخاب کنید",
-            "ERROR": "شنودگان ضروری است"
+            "ERROR": "انتخاب مخاطب الزامی است"
           },
           "SCHEDULED_AT": {
             "LABEL": "زمان برنامه ریزی شده",
@@ -127,12 +127,12 @@
             "ERROR": "زمان برنامه ریزی شده الزامی است"
           },
           "BUTTONS": {
-            "CREATE": "ايجاد كردن",
+            "CREATE": "ایجاد",
             "CANCEL": "انصراف"
           },
           "API": {
-            "SUCCESS_MESSAGE": "SMS campaign created successfully",
-            "ERROR_MESSAGE": "یک خطای وجود دارد. لطفا دوباره تلاش کنید."
+            "SUCCESS_MESSAGE": "کمپین پیامک با موفقیت ایجاد شد",
+            "ERROR_MESSAGE": "خطا رخ داده است. لطفاً دوباره تلاش کنید."
           }
         }
       }
@@ -202,12 +202,12 @@
       }
     },
     "CONFIRM_DELETE": {
-      "TITLE": "مطمئن هستید که حذف شود?",
-      "DESCRIPTION": "The delete action is permanent and cannot be reversed.",
+      "TITLE": "آیا از حذف مطمئن هستید؟",
+      "DESCRIPTION": "عملیات حذف دائمی است و قابل بازگشت نمی باشد.",
       "CONFIRM": "حذف",
       "API": {
         "SUCCESS_MESSAGE": "کمپین با موفقیت حذف شد",
-        "ERROR_MESSAGE": "یک خطای وجود دارد. لطفا دوباره تلاش کنید."
+        "ERROR_MESSAGE": "خطا رخ داده است. لطفاً دوباره تلاش کنید."
       }
     }
   }
