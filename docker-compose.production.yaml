@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/Dockerfile
-    # image: chatwoot/chatwoot:latest
+    image: mmkhakdaman/chatwoot:latest
     env_file: .env ## Change this file for customized env variables
     volumes:
       - storage_data:/app/storage
