@@ -2,6 +2,7 @@ version: '3'
 
 services:
   base: &base
+    platform: linux/amd64
     build:
       context: .
       dockerfile: ./docker/Dockerfile
